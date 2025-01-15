@@ -1,8 +1,9 @@
-# React + Vite
+# EcoShoppr
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+By Roman Rosales, Mason Brown, Quan Doan
 
-Currently, two official plugins are available:
+EcoShoppr is a platform which is designed to help consumers save money and optimize their grocery budgets.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The platform uses grocery store website price information and user collected data, to actively compile a online record of grocery store prices in your local area. This information is useful to the consumer as they can compare prices of individual items between different stores and shop in a more "Eco" manner. 
+
+We also try to work with small businesses to create an online presence in which they can showcase their products and prices. 
