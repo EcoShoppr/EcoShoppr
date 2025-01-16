@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 EcoShoppr
 By Roman Rosales, Mason Brown, Quan Doan
 
@@ -13,16 +14,21 @@ Running the Project with Docker
 (To stop container:) 1: docker ps 2: docker stop
 
 # React + TypeScript + Vite
+=======
+# EcoShoppr
+By Roman Rosales, Mason Brown, Quan Doan
+>>>>>>> c7122083a5023643de600e6fe462c4bfb8133a79
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EcoShoppr is a platform which is designed to help consumers save money and optimize their grocery budgets.
 
-Currently, two official plugins are available:
+The platform uses grocery store website price information and user collected data, to actively compile a online record of grocery store prices in your local area. This information is useful to the consumer as they can compare prices of individual items between different stores and shop in a more "Eco" manner.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+We also try to work with small businesses to create an online presence in which they can showcase their products and prices.
 
-## Expanding the ESLint configuration
+## Running the Project with Docker
+1: Install Docker 2: docker pull masonsbrown/ecoshoppr:latest 3: docker run -d -p 3000:3000 masonsbrown/eccoshoppr visit your browser!
 
+<<<<<<< HEAD
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
 - Configure the top-level `parserOptions` property like this:
@@ -62,3 +68,6 @@ export default tseslint.config({
   },
 });
 ```
+=======
+(To stop container:) 1: docker ps 2: docker stop
+>>>>>>> c7122083a5023643de600e6fe462c4bfb8133a79
