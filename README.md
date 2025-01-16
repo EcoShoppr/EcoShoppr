@@ -1,3 +1,17 @@
+EcoShoppr
+By Roman Rosales, Mason Brown, Quan Doan
+
+EcoShoppr is a platform which is designed to help consumers save money and optimize their grocery budgets.
+
+The platform uses grocery store website price information and user collected data, to actively compile a online record of grocery store prices in your local area. This information is useful to the consumer as they can compare prices of individual items between different stores and shop in a more "Eco" manner.
+
+We also try to work with small businesses to create an online presence in which they can showcase their products and prices.
+
+Running the Project with Docker
+1: Install Docker 2: docker pull masonsbrown/ecoshoppr:latest 3: docker run -d -p 3000:3000 masonsbrown/eccoshoppr visit your browser!
+
+(To stop container:) 1: docker ps 2: docker stop
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -18,11 +32,11 @@ export default tseslint.config({
   languageOptions: {
     // other options...
     parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
+      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
       tsconfigRootDir: import.meta.dirname,
     },
   },
-})
+});
 ```
 
 - Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
@@ -31,11 +45,11 @@ export default tseslint.config({
 
 ```js
 // eslint.config.js
-import react from 'eslint-plugin-react'
+import react from "eslint-plugin-react";
 
 export default tseslint.config({
   // Set the react version
-  settings: { react: { version: '18.3' } },
+  settings: { react: { version: "18.3" } },
   plugins: {
     // Add the react plugin
     react,
@@ -44,7 +58,7 @@ export default tseslint.config({
     // other rules...
     // Enable its recommended rules
     ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
+    ...react.configs["jsx-runtime"].rules,
   },
-})
+});
 ```
