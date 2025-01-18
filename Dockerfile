@@ -6,11 +6,8 @@ WORKDIR /app
 
 COPY ./deploy .
 
-# Install dependencies
-RUN npm install
-
 # Expose the port your React app runs on
-EXPOSE 3000
+EXPOSE 5173
 
 # Specify the default command to run the application
-CMD ["npm", "run", "dev"]
+CMD ["sh", "-c", "npm install && npm run dev"]
