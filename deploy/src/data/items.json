@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "name": "Eggs",
+      "price": 1,
+      "imgUrl": "/imgs/eggs.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Bread",
+      "price": 1,
+      "imgUrl": "/imgs/bread.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Milk",
+      "price": 1,
+      "imgUrl": "/imgs/milk.jpg"
+    }
+  ]
