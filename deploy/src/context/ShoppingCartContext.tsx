@@ -3,7 +3,7 @@ import { useLocalStorage} from '../hooks/useLocalStorage'
 import { ShoppingCart } from "../components/ShoppingCart"
 
 
-const ShoppingCartContext = createContext({})
+const ShoppingCartContext = createContext({} as ShoppingCartContext)
 
 export function useShoppingCart() {
     return useContext(ShoppingCartContext)
