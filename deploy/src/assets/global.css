@@ -1,0 +1,22 @@
+.nav-link {
+    font-weight: normal;
+    color: #000;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: font-weight 0.2s ease;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #4caf50; /* Adjust to your preferred active color */
+}
+
+button:focus {
+    outline: none;
+    box-shadow: none;
+}

@@ -5,6 +5,7 @@ import { Store } from "./pages/store"
 import { About } from "./pages/about"
 import { Navbar } from "./components/Navbar"
 import { ShoppingCartProvider } from "./context/ShoppingCartContext.tsx"
+import "./assets/global.css"
 
 function App() {
   return (

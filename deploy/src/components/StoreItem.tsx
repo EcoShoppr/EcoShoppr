@@ -1,6 +1,7 @@
 import { Button, Card } from "react-bootstrap"
 import { formatCurrency } from "../utilities/formatCurrency"
 import { useShoppingCart } from "../context/ShoppingCartContext"
+import "./StoreItem.css"
 
 type StoreItemProps = {
     id: number
@@ -23,34 +24,37 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
             <Card.Img variant="top" src={imgUrl} height="200px" 
             style={{ objectFit: "cover" }} 
             />
-            <Card.Body className="d-flex flex-column">
-                <Card.Title className="d-flex"
-                justify-content-space-between align-items-baseline mb-4>
-                    <span className= "fs-2">{name}</span>
+            <Card.Body className="d-flex flex-column justify-content-between">
+                <Card.Title className="d-flex justify-content-space-between align-items-baseline mb-4">
+                    <span className= "fs-4">{name}</span>
                     <span className= "ms-2 text-muted">{formatCurrency(price)}</span>
                 </Card.Title>
                 <div className="mt-auto">
                     {quantity === 0 ? (
-                        <Button className= "w-100" onClick={() => increaseCartQuantity(id)}>+ Add to Cart</Button>
+                        <Button className= "w-100 btn-success" onClick={() => increaseCartQuantity(id)}>+ Add to Cart</Button>
                      ) : (
                      <div 
                      className="d-flex align-items-center flex-column" 
-                     style={{ gap: "0.5rem"}}
+                     style={{ gap: ".5rem"}}
                         >
                         <div 
                         className="d-flex align-items-center justify-content-center" 
-                        style={{ gap: ".5rem"}}
+                        style={{ gap: "1rem"}}
                         >
-                            <Button onClick={() => decreaseCartQuantity(id)}>-</Button>
+                            <Button 
+                            variant="outline-success"
+                            onClick={() => decreaseCartQuantity(id)}>-</Button>
                             <div>
                             <span className="fs-3">{quantity}</span> 
-                            in cart
+                            
                             </div>
-                            <Button onClick={() => increaseCartQuantity(id)}>+</Button>
+                            <Button 
+                            variant="outline-success"
+                            onClick={() => increaseCartQuantity(id)}>+</Button>
                         </div>
                             <Button 
                             onClick={() => removeFromCart(id)}
-                            variant="success" 
+                            variant="outline-success" 
                             size="sm" 
                             >
                                 Remove

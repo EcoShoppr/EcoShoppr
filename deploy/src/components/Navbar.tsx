@@ -12,7 +12,7 @@ export function Navbar() {
                     Home
                 </Nav.Link>
                 <Nav.Link to="/store" as={NavLink}>
-                    Store
+                    Groceries
                 </Nav.Link>
                 <Nav.Link to="/about" as={NavLink}>
                     About
