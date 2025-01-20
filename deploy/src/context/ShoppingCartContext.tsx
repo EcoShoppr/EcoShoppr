@@ -31,7 +31,7 @@ type ShoppingCartContext = {
 
 export function ShoppingCartProvider({ children }: 
 ShoppingCartProviderProps) {
-    const [IsOpen, setIsOpen] = useState(false)
+    const [isOpen, setIsOpen] = useState(false)
     const [cartItems, setCartItems] = useState<CartItem[]>([])
 
     const cartQuantity = cartItems.reduce(
@@ -97,6 +97,7 @@ ShoppingCartProviderProps) {
         }}
     >
         {children}
+        <ShoppingCart isOpen={isOpen} />
     </ShoppingCartContext.Provider>
     )
 }
