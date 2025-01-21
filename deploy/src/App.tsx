@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom"
 import { Container } from "react-bootstrap"
+import { Team } from "./pages/team"
 import { Home } from "./pages/home"
 import { Store } from "./pages/store"
 import { About } from "./pages/about"
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/store" element={<Store />} />
         <Route path="/about" element={<About />} />
+        <Route path="/team" element={<Team />} />
       </Routes>
     </Container>
     </ShoppingCartProvider>
