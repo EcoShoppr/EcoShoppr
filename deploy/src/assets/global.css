@@ -15,8 +15,3 @@
     font-weight: bold;
     color: #4caf50; /* Adjust to your preferred active color */
 }
-
-button:focus {
-    outline: none;
-    box-shadow: none;
-}

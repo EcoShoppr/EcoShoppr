@@ -15,7 +15,7 @@ export function Home() {
             <header className="banner">
                 <div className="banner-content">
                     <h1>EcoShoppr</h1>
-                    <p>Save money and time on groceries.</p>
+                    <p>Simplifying Shopping, Saving You Money</p>
                     <button className="cta-button" onClick={handleStartNow}>Start Now</button>
                 </div>
             </header>
