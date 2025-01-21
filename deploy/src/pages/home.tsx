@@ -1,7 +1,14 @@
 import { Container } from "react-bootstrap";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 import "./Home.css";
 
 export function Home() {
+    const navigate = useNavigate(); // Initialize navigate function
+
+    const handleStartNow = () => {
+        navigate("/store"); // Navigate to the store route
+    };
+
     return (
         <Container className="home">
             {/* Banner Section */}
@@ -9,7 +16,7 @@ export function Home() {
                 <div className="banner-content">
                     <h1>EcoShoppr</h1>
                     <p>Save money and time on groceries.</p>
-                    <button className="cta-button">Start Now</button>
+                    <button className="cta-button" onClick={handleStartNow}>Start Now</button>
                 </div>
             </header>
 
