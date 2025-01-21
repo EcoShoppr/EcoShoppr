@@ -14,38 +14,41 @@ body, html {
 
 /* Banner Section */
 .banner {
-    background-color: #f4f4f4;
+    background-color: #2e7d32; /* Darker green for the banner */
     text-align: center;
     padding: 3rem 1rem;
     width: 100%;
 }
 
 .banner-content h1 {
-    font-size: 2.5rem;
+    font-size: 3rem; /* Increase the font size for more prominence */
     margin-bottom: 1rem;
-    color: #333;
+    color: #ffffff; /* Lighter text color for better contrast */
+    font-weight: bold; /* Make the heading bold */
 }
 
 .banner-content p {
-    font-size: 1.2rem;
+    font-size: 1.3rem; /* Slightly larger for better visibility */
     margin-bottom: 1.5rem;
-    color: #555;
+    color: #e0e0e0; /* Lighter gray for text contrast */
 }
 
+/* CTA Button */
 .cta-button {
-    background-color: #4caf50;
-    color: white;
+    background-color: #1b5e20; /* Darker green for the button */
+    color: #ffffff; /* White text for the button */
     border: none;
     padding: 0.75rem 1.5rem;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.1rem; /* Slightly larger font for better visibility */
     transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #45a049;
+    background-color: #145a28; /* Even darker green for hover */
 }
+
 
 /* Features Section */
 .features {
