@@ -5,20 +5,23 @@ import { Link } from "react-router-dom";
 export function Team() {
     const teamMembers = [
         {
+            name: "mason",
             displayName: "Mason Brown",
             role: "CTO & Founder",
             imgUrl: "assets/Mason_Headshot.JPEG", // Replace with actual image URLs
             bgColor: "#2e7d32",
         },
         {
+            name: "roman",
             displayName: "Roman Rosales",
             role: "CEO & Founder",
             imgUrl: "/assets/bob.jpg",
             bgColor: "#2e7d32",
         },
         {
+            name: "quan",
             displayName: "Quan Doan",
-            role: "Founder",
+            role: "Lead Developer & Founder",
             imgUrl: "/assets/charlie.jpg",
             bgColor: "#2e7d32",
         },
@@ -26,11 +29,11 @@ export function Team() {
 
     return (
         <Container className="py-4 team-page">
-            <h1 className="text-center mb-4">Meet Our Team</h1>
+            <h1 className="text-center mb-4">Connect With Our Team</h1>
             <Row className="justify-content-center">
                 {teamMembers.map((member, index) => (
                     <Col key={index} md={4} sm={6} xs={12} className="mb-4">
-                        <Link to={`/team/${member.displayName}`} style={{ textDecoration: "none" }}>
+                        <Link to={`/team/${member.name}`} style={{ textDecoration: "none" }}>
                             <Card className="team-card">
                                 <Card.Img
                                     variant="top"
