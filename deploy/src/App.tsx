@@ -5,6 +5,7 @@ import { Home } from "./pages/home"
 import { Store } from "./pages/store"
 import { About } from "./pages/about"
 import { Navbar } from "./components/Navbar"
+import { TeamMember } from "./components/TeamMember"; // Import the individual team member page
 import { ShoppingCartProvider } from "./context/ShoppingCartContext.tsx"
 import "./assets/global.css"
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/store" element={<Store />} />
         <Route path="/about" element={<About />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/team/:name" element={<TeamMember />} /> {/* Dynamic route */}
       </Routes>
     </Container>
     </ShoppingCartProvider>
