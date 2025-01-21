@@ -1,12 +1,12 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
-import "./Team.css";
+import "./Team.css"
 
 export function Team() {
     const teamMembers = [
         {
             name: "Mason Brown",
             role: "CTO & Founder",
-            imgUrl: "/assets/alice.jpg", // Replace with actual image URLs
+            imgUrl: "assets/Mason_Headshot.JPEG", // Replace with actual image URLs
             bgColor: "#2e7d32",
         },
         {
