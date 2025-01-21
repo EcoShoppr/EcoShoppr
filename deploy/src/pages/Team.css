@@ -1,0 +1,39 @@
+/* Team Card */
+.team-card {
+    background-color: #2e7d32; /* Dark green background */
+    color: #ffffff; /* White text color */
+    border: none; /* Remove the default border */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    text-align: center;
+    overflow: hidden; /* Ensures images stay within rounded corners */
+}
+
+/* Card Image */
+.team-photo {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Card Title */
+.team-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #f5f5f5; /* Slightly lighter white for titles */
+}
+
+/* Card Text */
+.team-card .card-text {
+    font-size: 1rem;
+    color: #d1d1d1; /* Light gray for role descriptions */
+}
+
+/* Optional: Hover Effect */
+.team-card:hover {
+    background-color: #255d27; /* Slightly darker green on hover */
+    transform: scale(1.05); /* Subtle zoom effect */
+    transition: background-color 0.3s, transform 0.3s;
+}
