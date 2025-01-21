@@ -17,7 +17,7 @@ export function TeamMember() {
             displayName: "Roman Rosales",
             role: "CEO & Founder",
             bio: "Roman oversees the vision and strategic direction of EcoShoppr.",
-            imgUrl: "",
+            imgUrl: "/assets/roman_headshot.jpeg",
             linkedIn: "https://www.linkedin.com/in/roman-rosales/",
         },
         {

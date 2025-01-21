@@ -15,7 +15,7 @@ export function Team() {
             name: "roman",
             displayName: "Roman Rosales",
             role: "CEO & Founder",
-            imgUrl: "/assets/bob.jpg",
+            imgUrl: "/assets/roman_headshot.jpeg",
             bgColor: "#2e7d32",
         },
         {
