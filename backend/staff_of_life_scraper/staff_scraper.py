@@ -6,6 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 import re
+import json  # new import
 
 def scan_item_groupings(soup):
     # Extract all text from the page into a single string.
@@ -43,15 +44,16 @@ def clean_option_text(text):
     text = re.sub(r'\bisl\b', 'Island', text, flags=re.IGNORECASE)
     # Replace "brwn" with "Brown".
     text = re.sub(r'\bbrwn\b', 'Brown', text, flags=re.IGNORECASE)
+    # Remove text following "Count" (the brand name) if any.
+    text = re.sub(r'(Count)\s+.*', r'\1', text, flags=re.IGNORECASE)
     # Remove extra spaces.
     text = re.sub(r'\s+', ' ', text).strip()
-    # Specific fix for duplicate brand names:
     return text.title()
 
 def get_first_dozen_eggs_price(url):
     chrome_options = Options()
     # Comment out headless if needed for full JS support:
-    # chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--headless")
     driver = webdriver.Chrome(options=chrome_options)
     
     driver.get(url)
@@ -66,14 +68,20 @@ def get_first_dozen_eggs_price(url):
     # Filter results only for dozen eggs (assuming indicators "12 CT" or "1 DZN").
     filtered = [match for match in egg_matches
                 if ("12 CT" in match[0].upper() or "1 DZN" in match[0].upper())]
+    options_list = []  # collect results for JSON
     # Display formatted results.
     if filtered:
         print("Dozen egg options:")
         for option, price in filtered:
             clean_option = clean_option_text(option)
             print(f"Option: {clean_option}  --  Price: {price}")
+            options_list.append({"option": clean_option, "price": price})
     else:
         print("Dozen eggs option not found.")
+    
+    # Write the results to a JSON file (overwriting previous content) under the staff_of_life_scraper directory.
+    with open("staff_of_life_scraper/dozen_egg_options.json", "w") as f:
+        json.dump(options_list, f, indent=4)
     
     driver.quit()
     # Locate the container with the product "dozen eggs"; adjust selectors as needed.
