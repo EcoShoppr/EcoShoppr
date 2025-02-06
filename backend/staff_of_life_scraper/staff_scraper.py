@@ -77,7 +77,20 @@ def get_first_dozen_eggs_price(url):
             print(f"Option: {clean_option}  --  Price: {price}")
             options_list.append({"option": clean_option, "price": price})
     else:
-        print("Dozen eggs option not found.")
+        print("Dozen eggs option not found, retrying with more wait time")
+        import time  # import if not already imported at module level
+        time.sleep(5)  # extra wait time
+        # Re-read page source and update soup after waiting
+        page_source = driver.page_source
+        soup = BeautifulSoup(page_source, "html.parser")
+        egg_matches = scan_egg_options(soup)
+        filtered_retry = [match for match in egg_matches
+                          if ("12 CT" in match[0].upper() or "1 DZN" in match[0].upper())]
+        if filtered_retry:
+            for option, price in filtered_retry:
+                clean_option = clean_option_text(option)
+                print(f"Option: {clean_option}  --  Price: {price}")
+                options_list.append({"option": clean_option, "price": price})
     
     # Write the results to a JSON file (overwriting previous content) under the staff_of_life_scraper directory.
     with open("backend/staff_of_life_scraper/dozen_egg_options.json", "w") as f:
