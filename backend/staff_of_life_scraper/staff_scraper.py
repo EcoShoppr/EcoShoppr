@@ -19,12 +19,10 @@ def scan_item_groupings(soup):
 def scan_egg_options(soup):
     # Extract full text from the page.
     full_text = soup.get_text(separator=" ", strip=True)
-    marker = "100% Organic  5 Fair Trade  1"
-    # Only start processing text after the marker.
-    if marker in full_text:
-        text = full_text.split(marker, 1)[1]
-    else:
-        text = full_text
+    # Define a regex pattern that allows flexible whitespace for the marker.
+    marker_pattern = r"Fair Trade\s+1"
+    match = re.search(marker_pattern, full_text, re.IGNORECASE)
+    text = full_text[match.end():] if match else full_text
     # Regex to capture egg groupings: product description containing "EGGS", then a price before "Product Price".
     pattern = r"([A-Z0-9\s]+EGGS(?:.*?))\s+(\$\d+\.\d{2}(?:/ea)?)\s+Product Price"
     matches = re.findall(pattern, text, re.IGNORECASE)
@@ -57,8 +55,10 @@ def get_first_dozen_eggs_price(url):
     driver = webdriver.Chrome(options=chrome_options)
     
     driver.get(url)
-    # Wait until page is loaded by waiting for a known element (e.g., a <ul> element) to appear.
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "ul")))
+    # Increase wait time: wait until document.readyState is complete, then add extra sleep
+    WebDriverWait(driver, 20).until(lambda d: d.execute_script("return document.readyState") == "complete")
+    import time
+    time.sleep(5)  # Additional wait time for full content to load
     
     page_source = driver.page_source
     soup = BeautifulSoup(page_source, 'html.parser')
