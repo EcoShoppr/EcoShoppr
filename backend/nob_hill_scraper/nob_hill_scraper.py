@@ -20,6 +20,24 @@ def scan_egg_options(soup):
     matches = re.findall(pattern, full_text, re.IGNORECASE | re.DOTALL)
     return matches
 
+def scan_egg_options_dict(soup):
+    full_text = soup.get_text(separator=" ", strip=True)
+    # Pattern: capture price and option description (up to "ct"), optionally removing trailing " + More"
+    pattern = r"(\$\d+\.\d{2})\s+ea\s+(.*?ct)(?:\s*\+\s*More)?(?=\s*Log In to Add Bookmark|$)"
+    matches = re.findall(pattern, full_text, re.IGNORECASE | re.DOTALL)
+    dozen_options = []
+    for price, desc in matches:
+        # Remove "Original Price $__.__" if present and collapse extra spaces.
+        cleaned_option = re.sub(r"Original Price\s+\$\d+\.\d{2}", "", desc, flags=re.IGNORECASE)
+        cleaned_option = re.sub(r"\s+", " ", cleaned_option).strip()
+        # Filter only for 12 ct entries that mention "egg"
+        if "12 ct" in cleaned_option.lower() and "egg" in cleaned_option.lower():
+            dozen_options.append({
+                "option": cleaned_option.title(),
+                "price": price.strip() + "/ea"
+            })
+    return dozen_options
+
 def scrape_egg_prices():
     url = "https://www.raleys.com/search?q=Eggs"
     chrome_options = Options()
@@ -45,17 +63,25 @@ def scrape_egg_prices():
         print(f"Option: {egg}")
     
     # New filtering: Print only 12 ct options containing "Egg" or "Eggs" with "ea" removed, "Original Price $__.__" removed,
-    # and with extra spaces collapsed.
+    # extra spaces collapsed, and trailing " + More" removed.
     filtered_options = []
     for egg in egg_options:
         if "12 ct" in egg.lower() and "egg" in egg.lower():
             modified = egg.replace("ea", "")
             modified = re.sub(r"Original Price\s+\$\d+\.\d{2}", "", modified, flags=re.IGNORECASE)
             modified = re.sub(r"\s+", " ", modified).strip()
+            modified = re.sub(r"\s*\+\s*More$", "", modified, flags=re.IGNORECASE)
             filtered_options.append(modified)
-    print("\nFiltered 12 ct Egg options (removed 'ea' and 'Original Price $__.__', extra spaces collapsed):")
+    print("\nFiltered 12 ct Egg options (cleaned):")
     for opt in filtered_options:
         print(opt)
+    
+    # New: extract dozen egg options as dictionary entries.
+    dozen_egg_options = scan_egg_options_dict(soup)
+    # Write the results to JSON file with the same attributes as the reference.
+    import json
+    with open("backend/nob_hill_scraper/dozen_egg_options.json", "w") as f:
+        json.dump(dozen_egg_options, f, indent=4)
     
     driver.quit()
     return egg_options
