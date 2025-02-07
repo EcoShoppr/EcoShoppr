@@ -7,11 +7,8 @@ from selenium.webdriver.support import expected_conditions as EC
 import re
 import json  # new import
 
-# def save_cookies(driver, cookies_path):
-#     import os, json
-#     if not os.path.exists(cookies_path):
-#         with open(cookies_path, "w") as f:
-#             json.dump(driver.get_cookies(), f, indent=4)
+def clean_option_text(text):
+    return text.title()
 
 def scrape_egg_prices():
     import time
@@ -36,35 +33,32 @@ def scrape_egg_prices():
     #                 driver.add_cookie(cookie)
     
     driver.get(url)
-    # Increase wait time: wait until document.readyState is complete, then add extra sleep
     WebDriverWait(driver, 20).until(lambda d: d.execute_script("return document.readyState") == "complete")
 
     time.sleep(10)  # Wait for the page to load
     
-    # Optionally save cookies if they don't already exist
-    # save_cookies(driver, cookies_path)
-    
     # Get page source and parse with BeautifulSoup
     soup = BeautifulSoup(driver.page_source, 'html.parser')
+    text = soup.get_text(separator=" ", strip=True)
     
-    # Find all ul blocks
-    ul_blocks = soup.find_all('ul')
+    # Regex to find egg products and their prices
+    pattern = r"(\$\d+\.\d{2}) each ([A-Za-z\s]+Eggs\s+.*\s+-\s+12\s+Count)"
+    matches = re.findall(pattern, text, re.IGNORECASE)
     
     egg_prices = []
-    
-    for ul in ul_blocks:
-        # Find all li entities within each ul block
-        li_entities = ul.find_all('li')
-        for li in li_entities:
-            # Check if the li entity contains egg information
-            if 'dozen' in li.text.lower():
-                # Extract price information
-                price = li.find('span', class_='product-price').text.strip()
-                egg_prices.append(price)
+    for price, option in matches:
+        clean_option = clean_option_text(option)
+        egg_prices.append({"option": clean_option, "price": price})
     
     driver.quit()
     
+    # Write the results to a JSON file (overwriting previous content)
+    with open("backend/safeway_scraper/dozen_egg_options.json", "w") as f:
+        json.dump(egg_prices, f, indent=4)
+    
     return egg_prices
+
+# the following is for testing purposes
 
 if __name__ == "__main__":
     prices = scrape_egg_prices()
