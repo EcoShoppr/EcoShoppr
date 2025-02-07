@@ -8,15 +8,15 @@
         "price": "$5.49/ea"
     },
     {
+        "option": "Judys Extra Large Eggs 12 Count",
+        "price": "$5.69/ea"
+    },
+    {
         "option": "Pasture Eggs 12 Count",
         "price": "$9.89/ea"
     },
     {
         "option": "Rock Island Brown Free Range Large Eggs 12 Count",
         "price": "$4.39/ea"
-    },
-    {
-        "option": "Organic Jumbo Eggs 12 Count",
-        "price": "$5.89/ea"
     }
 ]
