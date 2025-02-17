@@ -13,14 +13,19 @@ function runScrapers() {
         return reject(err);
       }
       
-      const scraperFiles = files.filter(file => file.toLowerCase().includes('scraper') && file.endsWith('.py'));
-      if (scraperFiles.length === 0) {
+      // Explicitly define scraper file names instead of filtering
+      const existingScrapers = ["nob_hill_scraper/nob_hill_scraper.py", "safeway_scraper/safeway_scraper.py", "staff_of_life_scraper/staff_of_life_scraper.py"];
+      
+      // Optionally verify that the files exist in the directory
+    //   const existingScrapers = scraperFiles.filter(file => files.includes(file));
+      
+      if (existingScrapers.length === 0) {
         console.log('No python scraper files found.');
         return resolve();
       }
       
       let completed = 0;
-      scraperFiles.forEach(file => {
+      existingScrapers.forEach(file => {
         const filePath = path.join(scrapersDir, file);
         console.log(`Running scraper: ${file}`);
         const child = spawn('python', [filePath], { stdio: 'inherit' });
@@ -28,7 +33,7 @@ function runScrapers() {
         child.on('close', (code) => {
           console.log(`Scraper ${file} exited with code ${code}`);
           completed++;
-          if (completed === scraperFiles.length) {
+          if (completed === existingScrapers.length) {
             resolve();
           }
         });
@@ -65,10 +70,11 @@ function aggregateJSONToSQL() {
   }
   
   jsonFiles.forEach(filePath => {
-    // Determine grocery store from relative path (assume first folder is the store)
     const relativePath = path.relative(baseDir, filePath);
     const pathParts = relativePath.split(path.sep);
-    const storeName = pathParts.length > 1 ? pathParts[0] : 'default';
+    let storeName = pathParts.length > 1 ? pathParts[0] : 'default';
+    // Remove undesired suffix if present
+    storeName = storeName.replace('_scraper', '');
     
     const fileName = path.basename(filePath);
     let data;
@@ -79,27 +85,19 @@ function aggregateJSONToSQL() {
       return;
     }
     
-    // Derive table name from JSON file name (without extension)
+    // Use the file name (without extension) as food_type
     const tableName = path.basename(fileName, '.json');
     
-    // Create table with grocery_store column
-    sqlStatements += `DROP TABLE IF EXISTS ${tableName};\nCREATE TABLE ${tableName} (\n  grocery_store VARCHAR(255),\n  // ...define columns...\n);\n`;
+    // Create table with fixed columns: food_type, grocery_store, item, price, time
+    sqlStatements += `DROP TABLE IF EXISTS ${tableName};\nCREATE TABLE ${tableName} (\n  food_type VARCHAR(255),\n  grocery_store VARCHAR(255),\n  item VARCHAR(255),\n  price VARCHAR(255),\n  time VARCHAR(255)\n);\n`;
     
-    // Generate INSERT statements including grocery_store value
+    // Generate INSERT statements using fixed columns (with time left blank)
     if (Array.isArray(data)) {
       data.forEach(row => {
-        const columns = Object.keys(row);
-        const values = Object.values(row);
-        const allColumns = [...columns, 'grocery_store'].join(', ');
-        const allValues = [...values.map(val => `'${val}'`), `'${storeName}'`].join(', ');
-        sqlStatements += `INSERT INTO ${tableName} (${allColumns}) VALUES (${allValues});\n`;
+        sqlStatements += `INSERT INTO ${tableName} (food_type, grocery_store, item, price, time) VALUES ('${tableName}', '${storeName}', '${row.item || ''}', '${row.price || ''}', '');\n`;
       });
     } else {
-      const columns = Object.keys(data);
-      const values = Object.values(data);
-      const allColumns = [...columns, 'grocery_store'].join(', ');
-      const allValues = [...values.map(val => `'${val}'`), `'${storeName}'`].join(', ');
-      sqlStatements += `INSERT INTO ${tableName} (${allColumns}) VALUES (${allValues});\n`;
+      sqlStatements += `INSERT INTO ${tableName} (food_type, grocery_store, item, price, time) VALUES ('${tableName}', '${storeName}', '${data.item || ''}', '${data.price || ''}', '');\n`;
     }
   });
   
