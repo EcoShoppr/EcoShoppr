@@ -59,5 +59,4 @@ export default tseslint.config({
 
 > > > > > > > c7122083a5023643de600e6fe462c4bfb8133a79
 
-
-wrangler d1 execute groceries --file=/Users/Mason/github/MasonSBrown/EcoShoppr/backend/results.sql
+wrangler login

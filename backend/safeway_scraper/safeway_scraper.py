@@ -6,12 +6,16 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 import re
 import json  # new import
+import os
+import time
+import sqlite3  # Use sqlite3 for Cloudflare D1 (SQLite)
+import subprocess
+import tempfile
 
 def clean_option_text(text):
     return text.title()
 
 def scrape_egg_prices():
-    import time
     url = "https://www.safeway.com/shop/aisles/dairy-eggs-cheese/eggs.html?sort=&page=1&loc=3132"
 
     # Remove standard Options and webdriver.Chrome
@@ -52,15 +56,59 @@ def scrape_egg_prices():
     
     driver.quit()
     
-    # Write the results to a JSON file (overwriting previous content)
-    with open("backend/safeway_scraper/dozen_egg_options.json", "w") as f:
-        json.dump(egg_prices, f, indent=4)
-    
     return egg_prices
 
-# the following is for testing purposes
+def run_wranger_d1_command(database_name, sql_command):
+    with tempfile.NamedTemporaryFile(mode="w", delete=False, suffix=".sql") as tmp:
+        tmp.write(sql_command)
+        tmp.flush()
+        tmp_filename = tmp.name
+
+    try:
+        command = [
+            "wrangler",
+            "d1",
+            "execute",
+            database_name,
+            "--remote",
+            "--file",
+            tmp_filename
+        ]
+        result = subprocess.run(command, capture_output=True, text=True)
+        if result.returncode != 0:
+            print("Error executing command:")
+            print(result.stderr)
+        return result.stdout
+    finally:
+        os.remove(tmp_filename)
+
+def write_results_to_db(options):
+    database_name = "groceries"
+    create_table_sql = """
+    CREATE TABLE IF NOT EXISTS dozen_egg_options (
+        food_type TEXT,
+        grocery_store TEXT,
+        item TEXT,
+        price TEXT,
+        time TEXT
+    );
+    """
+    run_wranger_d1_command(database_name, create_table_sql)
+    
+    food_type = "dozen_egg_options"
+    grocery_store = "safeway"
+    for record in options:
+        item = record.get("option", "").replace("'", "''")
+        price = record.get("price", "").replace("'", "''")
+        insert_sql = f"""
+        INSERT INTO dozen_egg_options (food_type, grocery_store, item, price, time)
+        VALUES ('{food_type}', '{grocery_store}', '{item}', '{price}', '');
+        """
+        run_wranger_d1_command(database_name, insert_sql)
+    print("Safeway data inserted into D1 SQL database via Wrangler CLI.")
 
 if __name__ == "__main__":
     prices = scrape_egg_prices()
+    write_results_to_db(prices)
     for price in prices:
         print(price)
