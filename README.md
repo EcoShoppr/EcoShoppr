@@ -58,3 +58,6 @@ export default tseslint.config({
 (To stop container:) 1: docker ps 2: docker stop
 
 > > > > > > > c7122083a5023643de600e6fe462c4bfb8133a79
+
+
+wrangler d1 execute groceries --file=/Users/Mason/github/MasonSBrown/EcoShoppr/backend/results.sql
