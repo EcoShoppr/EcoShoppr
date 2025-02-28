@@ -1,11 +1,19 @@
-FRONTEND
-- Template
-- Make pretty
+CURRENT:
+FRONTEND 
+- figma Design working : Bri
+    - main page
+    - item pages (just egg now)
+    - shopping cart page
+- template working : Roman 
 - pull from database for eggs
 
 
-
 BACKEND
-- Fix safeway and staff scraper to properly concatenate egg options from raw data
-- Update requirements.txt
-- Use cloudflare API for python module instead of using wrangler CLI commands in each category
+- fix safeway scraper properly concatenate egg options from raw data : Quan
+- update requirements.txt
+- use cloudflare API for python module instead of using wrangler CLI commands in each category
+- API : Mason
+
+FUTURE:
+- google maps integration
+- 
