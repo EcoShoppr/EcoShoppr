@@ -24,3 +24,4 @@ deploy/.vite/*
 *.sln
 *.sw?
 .wrangler/*
+.env
