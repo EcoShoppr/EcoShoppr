@@ -1,47 +1,52 @@
-
+import { CartIcon, StoreIcon, SmartCartIcon, SavingsIcon } from './components/Icons';
+import { HeroSearch } from './components/HeroSearch';
+import './App.css';
 import './index.css';
 
 function App() {
   return (
-    <div className="hero-container">
-      <div className="logo-container">
-        <div className="logo-glow"></div>
-        <h1 className="logo-text">EcoShoppr</h1>
+    <div className="app-container animate-fade-in">
+      <div className="content-wrapper">
+
+        <header className="header-section">
+          <div className="badge">
+            <CartIcon />
+            <span>EcoShoppr</span>
+          </div>
+
+          <h1 className="title">
+            Local Groceries.<br />
+            Optimized Deals.
+          </h1>
+
+          <p className="subtitle">
+            Find the cheapest items across Santa Cruz supermarkets and cafes instantly. Our <strong>Smart Cart</strong> builds the perfect shopping trip to save you money and time.
+          </p>
+        </header>
+
+        <section className="search-section">
+          <HeroSearch />
+        </section>
+
+        <section className="features-grid">
+          <div className="feature-card">
+            <span className="feature-icon"><StoreIcon /></span>
+            <h3 className="feature-title">10+ Stores</h3>
+            <span className="feature-desc">Real-time local pricing</span>
+          </div>
+          <div className="feature-card">
+            <span className="feature-icon"><SmartCartIcon /></span>
+            <h3 className="feature-title">Smart Cart</h3>
+            <span className="feature-desc">Algorithm optimized trips</span>
+          </div>
+          <div className="feature-card">
+            <span className="feature-icon"><SavingsIcon /></span>
+            <h3 className="feature-title">Save ~15%</h3>
+            <span className="feature-desc">On your grocery budget</span>
+          </div>
+        </section>
+
       </div>
-
-      <p className="subtitle">
-        The localized grocery price aggregator. Find the cheapest items across Santa Cruz supermarkets, cafes, and restaurants instantly.
-      </p>
-
-      <div className="card-grid">
-        <div className="glass-card">
-          <div className="card-icon">🥬</div>
-          <h2 className="card-title">Automated Scraping</h2>
-          <p className="card-text">
-            Gather real-time data from local storefronts automatically via robust AI-assisted crawler pipelines.
-          </p>
-        </div>
-
-        <div className="glass-card">
-          <div className="card-icon">💸</div>
-          <h2 className="card-title">Cost Optimization</h2>
-          <p className="card-text">
-            Compare normalized prices for everyday goods, ensuring you're saving on your grocery budget.
-          </p>
-        </div>
-
-        <div className="glass-card">
-          <div className="card-icon">📍</div>
-          <h2 className="card-title">Local Focus</h2>
-          <p className="card-text">
-            Starting native to Santa Cruz, supporting local businesses and finding hidden deals in the community.
-          </p>
-        </div>
-      </div>
-
-      <button className="cta-button" onClick={() => alert("Scraping backend integration pending...")}>
-        Explore the Market
-      </button>
     </div>
   );
 }
