@@ -10,11 +10,13 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [hasSearched, setHasSearched] = useState(false);
+  const [lastQuery, setLastQuery] = useState('');
 
   const handleSearch = async (query: string) => {
     setLoading(true);
     setError(null);
     setHasSearched(true);
+    setLastQuery(query);
 
     try {
       const baseUrl = import.meta.env.VITE_API_URL || '';
@@ -57,7 +59,7 @@ function App() {
         </section>
 
         {hasSearched ? (
-          <ProductList products={products} loading={loading} error={error} />
+          <ProductList products={products} loading={loading} error={error} searchQuery={lastQuery} />
         ) : (
           <section className="features-grid">
             <div className="feature-card">

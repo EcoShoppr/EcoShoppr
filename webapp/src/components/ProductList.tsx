@@ -17,9 +17,10 @@ interface ProductListProps {
     products: Product[];
     loading: boolean;
     error: string | null;
+    searchQuery?: string;
 }
 
-export function ProductList({ products, loading, error }: ProductListProps) {
+export function ProductList({ products, loading, error, searchQuery }: ProductListProps) {
     if (loading) {
         return (
             <div className="product-list-container state-message">
@@ -40,7 +41,7 @@ export function ProductList({ products, loading, error }: ProductListProps) {
     if (products.length === 0) {
         return (
             <div className="product-list-container state-message empty">
-                <p>No products found. Try a different search term.</p>
+                <p>No items found for '{searchQuery}'. Try a different search term.</p>
             </div>
         );
     }

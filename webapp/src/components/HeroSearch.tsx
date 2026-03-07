@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './HeroSearch.css';
 
 interface HeroSearchProps {
@@ -8,6 +8,18 @@ interface HeroSearchProps {
 export function HeroSearch({ onSearch }: HeroSearchProps) {
     const [isFocused, setIsFocused] = useState(false);
     const [query, setQuery] = useState('');
+
+    // Debounce search effect
+    useEffect(() => {
+        if (!onSearch) return;
+
+        const timeOutId = setTimeout(() => {
+            if (query.trim()) {
+                onSearch(query.trim());
+            }
+        }, 500);
+        return () => clearTimeout(timeOutId);
+    }, [query, onSearch]);
 
     const handleSearch = (e?: React.FormEvent) => {
         if (e) e.preventDefault();
