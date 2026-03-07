@@ -1,9 +1,22 @@
 {
     "version": 2,
-    "rewrites": [
+    "builds": [
         {
-            "source": "/(.*)",
-            "destination": "/dist/server.js"
+            "src": "src/server.ts",
+            "use": "@vercel/node",
+            "config": {
+                "includeFiles": [
+                    "schema.prisma",
+                    "node_modules/.prisma/client/**/*",
+                    "node_modules/@prisma/client/**/*"
+                ]
+            }
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "src/server.ts"
         }
     ]
 }
