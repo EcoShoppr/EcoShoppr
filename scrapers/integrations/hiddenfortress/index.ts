@@ -1,13 +1,13 @@
 import { SquareAdapter } from '../../core/adapters/SquareAdapter.js';
 
-export class CoffeetopiaScraper extends SquareAdapter {
+export class HiddenFortressScraper extends SquareAdapter {
     constructor() {
-        super('coffeetopia', 'https://coffeetopia.square.site/s/order');
+        super('hiddenfortress', 'https://hidden-fortress-coffee.square.site/s/order');
     }
 }
 
 const isMainModule = import.meta.url === `file://${process.argv[1]}`;
 if (isMainModule) {
-    const scraper = new CoffeetopiaScraper();
+    const scraper = new HiddenFortressScraper();
     scraper.scrape().catch(console.error);
 }
