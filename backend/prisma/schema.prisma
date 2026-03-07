@@ -1,0 +1,68 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model RawScrapedItem {
+  id               String   @id @default(uuid())
+  store_id         String   // FK to a future Store model
+  raw_name         String
+  raw_price        Float
+  raw_url          String?
+  scraped_at       DateTime @default(now())
+  processing_status ProcessingStatus @default(PENDING)
+  
+  normalizedItem   NormalizedItem?
+}
+
+enum ProcessingStatus {
+  PENDING
+  PROCESSED
+  FAILED
+}
+
+model NormalizedItem {
+  id              String   @id @default(uuid())
+  raw_item_id     String   @unique
+  raw_item        RawScrapedItem @relation(fields: [raw_item_id], references: [id])
+  
+  brand           String?
+  core_product    String
+  attributes      String[]
+  size_value      Float?
+  size_unit       String?
+
+  product_catalog_id String?
+  product_catalog    ProductCatalog? @relation(fields: [product_catalog_id], references: [id])
+}
+
+model ProductCatalog {
+  id              String   @id @default(uuid())
+  canonical_name  String
+  brand           String?
+  core_product    String
+  attributes      String[]
+  size_value      Float?
+  size_unit       String?
+
+  normalized_items NormalizedItem[]
+  store_mappings   StoreProductMapping[]
+}
+
+model StoreProductMapping {
+  id                 String   @id @default(uuid())
+  store_id           String
+  raw_name           String
+  product_catalog_id String
+  product_catalog    ProductCatalog @relation(fields: [product_catalog_id], references: [id])
+
+  @@unique([store_id, raw_name])
+}
