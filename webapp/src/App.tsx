@@ -17,7 +17,8 @@ function App() {
     setHasSearched(true);
 
     try {
-      const response = await fetch(`/api/products?q=${encodeURIComponent(query)}`);
+      const baseUrl = import.meta.env.VITE_API_URL || '';
+      const response = await fetch(`${baseUrl}/api/products?q=${encodeURIComponent(query)}`);
       if (!response.ok) {
         throw new Error('Failed to fetch products');
       }
