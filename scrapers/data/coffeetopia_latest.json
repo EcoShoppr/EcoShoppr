@@ -1,0 +1,818 @@
+[
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "SPR74GS3UYNDF7KEWU4FGFCV",
+    "name": "Cheese Stick",
+    "category": "Uncategorized",
+    "price": 0.75,
+    "scrapedAt": "2026-03-07T21:42:08.118Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "MVHY7DGZQIFY4COI6ZLJQJHA",
+    "name": "Latte",
+    "category": "Uncategorized",
+    "price": 6.5,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "3JYHHT22TN5XBIZUTIWIRJWD",
+    "name": "Mocha",
+    "category": "Uncategorized",
+    "price": 7,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "Y5J5T5VWASCQNH4XPIDJSFOY",
+    "name": "Espresso",
+    "category": "Uncategorized",
+    "price": 5,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "6TCBHAZEGATCTCTS7W27TCBG",
+    "name": "Americano",
+    "category": "Uncategorized",
+    "price": 5.5,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "OOO4A4HYETKPXFLKNELNDLWK",
+    "name": "Jumpstart",
+    "category": "Uncategorized",
+    "price": 5.75,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "GYPIKDUZ3NKCMZHBPNO2YQCV",
+    "name": "Aussie Bites",
+    "category": "Uncategorized",
+    "price": 0.85,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "SMYPCBFOCIYSI6OJSBL4O3PP",
+    "name": "House Coffee",
+    "category": "Uncategorized",
+    "price": 4.5,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "LGYDUS5DQB65D6HBOO267UCL",
+    "name": "Chai",
+    "category": "Uncategorized",
+    "price": 6,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "K45BT7DNKR24SHFZY5PVJZVS",
+    "name": "Brew Bar",
+    "category": "Uncategorized",
+    "price": 6,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "SLBKRRFAENXNUW7FDQ72XYQY",
+    "name": "Cold Brew",
+    "category": "Uncategorized",
+    "price": 6.25,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "L6ENVHH4CR3ZB5J6LMQEXW7R",
+    "name": "Caramel Macchiato",
+    "category": "Uncategorized",
+    "price": 7,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "UWNHL326WLPEBZ4F34JLSUN7",
+    "name": "Macchiato (Traditional)",
+    "category": "Uncategorized",
+    "price": 5.25,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "FUF742O4LULTV7JZ5EAPGEEI",
+    "name": "Cocoa",
+    "category": "Uncategorized",
+    "price": 5.5,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "POEQTTFFVWYHGE4ILAKVR67X",
+    "name": "Matcha Latte",
+    "category": "Uncategorized",
+    "price": 6.25,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "2EZ6XPCQBKRUJRUEQK6UBQXO",
+    "name": "Au Lait",
+    "category": "Uncategorized",
+    "price": 5.5,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "HDU7SK7YS7KI7LVJX7G7TMTP",
+    "name": "Smoothie",
+    "category": "Uncategorized",
+    "price": 9.75,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "EC67LP5YD7P5HDLVVAXK3O37",
+    "name": "Frozen Mocha",
+    "category": "Uncategorized",
+    "price": 7.75,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "VLRKYV5FCTGNKAHLQSIROPVD",
+    "name": "BYOB (Build Your Own Bagel)",
+    "category": "Uncategorized",
+    "price": 4,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "76KBUIGPVCEJAXJNDOX5UTQG",
+    "name": "Bagel Sandwich",
+    "category": "Uncategorized",
+    "price": 8,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "QMSSD7XJDCVFAO6JFCSA4AOS",
+    "name": "Refill",
+    "category": "Uncategorized",
+    "price": 1,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "MM7WIV7XK7FWLLMSYZJ553YF",
+    "name": "Flat White",
+    "category": "Uncategorized",
+    "price": 4.75,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "JQIQV43OLZGGVTVD4QRSGNDO",
+    "name": "Cortado",
+    "category": "Uncategorized",
+    "price": 5.75,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "N35TCC2GG4K5DZVSVEV2CWIV",
+    "name": "Lemonade",
+    "category": "Uncategorized",
+    "price": 5.5,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "Z2CYVXNFLFWT4Q6HYXVXA67D",
+    "name": "AUIFI Pastries",
+    "category": "Uncategorized",
+    "price": 4.5,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "UMPWRMNW3WFSUA7WJNWX2ABE",
+    "name": "Thai Iced Coffee",
+    "category": "Uncategorized",
+    "price": 6.5,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "YOGTHS4LRZTCIPNJVT6RUMK2",
+    "name": "Soup (12oz)",
+    "category": "Uncategorized",
+    "price": 7,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "6PEPXSKTRKBMK6TWGXLCPV7K",
+    "name": "Curry Butternut Soup",
+    "category": "Uncategorized",
+    "price": 7,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "DMPMW2PC6PD5EEQUTUH77AVY",
+    "name": "Sides",
+    "category": "Uncategorized",
+    "price": 3,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "BPQY4UH6MQJVLZU27SEYGUGA",
+    "name": "Coffee Travelers (just coffee)",
+    "category": "Uncategorized",
+    "price": 110,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "BKOE2AP5ZY3R544QTLH4HOW6",
+    "name": "Coffee Travelers (with extras)",
+    "category": "Uncategorized",
+    "price": 122,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "44WXG5DKGDL6D7CNVA3RKEUA",
+    "name": "Cappuccino",
+    "category": "Uncategorized",
+    "price": 6.5,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "2QOX4B7CW66NRN7UZV2UHBVG",
+    "name": "Italian Soda",
+    "category": "Uncategorized",
+    "price": 3.75,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "B7MJ6MNEG7AUVP47GO2IY475",
+    "name": "Bacon Breakfast Burrito",
+    "category": "Uncategorized",
+    "price": 10.25,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "HTOFVA53NG3ZLHEPZF54WCR4",
+    "name": "Turkey Sausage Breakfast Burrito",
+    "category": "Uncategorized",
+    "price": 10.25,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "EQMHG7KUO3MARYYL2W57IG24",
+    "name": "Green Chile Breakfast Burrito",
+    "category": "Uncategorized",
+    "price": 10.25,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "LNSA3BRAQKUTUZ4WF6UP2FGL",
+    "name": "Veggie Chorizo Breakfast Burrito",
+    "category": "Uncategorized",
+    "price": 10.25,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "H5FWFD26TDKGUTFJHQT6OEUH",
+    "name": "Bean & Cheese Burrito",
+    "category": "Uncategorized",
+    "price": 7.25,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "IQ6N2BJAGMSEMD5XQRL52K6Y",
+    "name": "No Bacon Burrito",
+    "category": "Uncategorized",
+    "price": 10.25,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "3QAPDAYXMEB2IKFKS22NLSDX",
+    "name": "Roasted Butternut Squash Soup",
+    "category": "Uncategorized",
+    "price": 7,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "C7IJWJXYQ74NMIJAHDZRZFIK",
+    "name": "Carrot Ginger Soup",
+    "category": "Uncategorized",
+    "price": 7,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "RYQRWHMTEII7LM5WVWRQDIY7",
+    "name": "White Bean & Kale Soup",
+    "category": "Uncategorized",
+    "price": 7,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "FEV4RYG5LGNONJDEFXO5QBKU",
+    "name": "Chicken Poblano Soup",
+    "category": "Uncategorized",
+    "price": 7,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "HYYTFWXG4LCDMQDXVBSSHJMQ",
+    "name": "Chicken Noodle Soup",
+    "category": "Uncategorized",
+    "price": 7,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "PBTMPBQUJOFTXZIQTFIUHMZ5",
+    "name": "Chicken Tortilla Soup",
+    "category": "Uncategorized",
+    "price": 7,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "WBZMJHJFTPPWKDOMXZEZIID6",
+    "name": "Blueberry Muffin",
+    "category": "Uncategorized",
+    "price": 3.75,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "L74NRYLHNNXSI5RPJMUCXPQI",
+    "name": "Orange-Cranberry Muffin",
+    "category": "Uncategorized",
+    "price": 3.75,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "NIDYKWWUIRCKXLOIUTETPSZD",
+    "name": "Plain Croissant",
+    "category": "Uncategorized",
+    "price": 3.75,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "WLVKAHSYTCY6UW7DJSCTXEG7",
+    "name": "Chocolate Croissant",
+    "category": "Uncategorized",
+    "price": 4.75,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "FBWZN2QVC4UQQPU3POWAWDJ4",
+    "name": "Greek Yogurt Cherry Danish",
+    "category": "Uncategorized",
+    "price": 4,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "VGUJSX6VT2Y2BMWMRGS7HKWP",
+    "name": "Cinnamon Swirl",
+    "category": "Uncategorized",
+    "price": 4.5,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "4DDG7UPR2FG7YOELUZBAOYVH",
+    "name": "Kouihn Amann",
+    "category": "Uncategorized",
+    "price": 4.75,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "M2KBVJF7EMXUZILKTLD74RDX",
+    "name": "Spinach & Ricotta Croissant",
+    "category": "Uncategorized",
+    "price": 5,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "24N76DTR6G46KSQMY4APYUES",
+    "name": "Cinnamon-Walnut Pound Cake",
+    "category": "Uncategorized",
+    "price": 4.5,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "T6EM5HLZP4UUFGZDWKS4RBQD",
+    "name": "Lemon Pound Cake",
+    "category": "Uncategorized",
+    "price": 4.5,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "EM32D6BLGFAVU7OVJ5WXS2DH",
+    "name": "Banana Walnut Pound Cake",
+    "category": "Uncategorized",
+    "price": 4.5,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "3DGLO4SMQEBB6OB4BWO3PUCZ",
+    "name": "Lemon Bar",
+    "category": "Uncategorized",
+    "price": 3.5,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "F5YUTOE25H3WDSMHPETUPJIC",
+    "name": "Flax Bar",
+    "category": "Uncategorized",
+    "price": 2.75,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "EYAM6HFXQZNDX4FQEUQRVNVX",
+    "name": "Triple Berry Bar",
+    "category": "Uncategorized",
+    "price": 3.5,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "6TRHRIHJD2MODCZ5V6TZNJIF",
+    "name": "Gluten Free Brownie",
+    "category": "Uncategorized",
+    "price": 3.5,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "ZUH2RD4IMYOKNJ2E3OUZCHXU",
+    "name": "House Coffee",
+    "category": "Uncategorized",
+    "price": 4.5,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "DT45Z4BI56OQSFJ7IM2Z7DLD",
+    "name": "Pour-Over Coffee",
+    "category": "Uncategorized",
+    "price": 6,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "NU5AOLLQGC42EFQYFIBTHFUD",
+    "name": "Jumpstart",
+    "category": "Uncategorized",
+    "price": 5.5,
+    "scrapedAt": "2026-03-07T21:42:08.119Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "W3AE4OZWAMT7XBPBPFP6ILRA",
+    "name": "Raspberry Zinger",
+    "category": "Uncategorized",
+    "price": 8,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "TRI2TLTYL6MJOAIOCTHOBAJ5",
+    "name": "Blue Temptation",
+    "category": "Uncategorized",
+    "price": 8,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "RHYFOD24BW2GONZORPQ7BHA3",
+    "name": "Strawberry Sunrise",
+    "category": "Uncategorized",
+    "price": 8,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "DGZ5VPGKKMRX7DVMJ3AQMQPI",
+    "name": "Banana Orange",
+    "category": "Uncategorized",
+    "price": 8,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "BNXBKDX6VJMUKAGLH2W3VAKT",
+    "name": "Berry Burst",
+    "category": "Uncategorized",
+    "price": 8,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "C6Z6YVN4TEG4TFEYXMYNCIE6",
+    "name": "Tropical Twist",
+    "category": "Uncategorized",
+    "price": 8,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "B54AOL5YVHYUJUU77UXGBNIT",
+    "name": "Super Protein",
+    "category": "Uncategorized",
+    "price": 9,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "LP2OYP65X67DPBNJ4FSPDSVQ",
+    "name": "Hawaiian Hula",
+    "category": "Uncategorized",
+    "price": 8,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "UTILJL6FZESD6JIEOUQM5F2J",
+    "name": "Funky Monkey",
+    "category": "Uncategorized",
+    "price": 8,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "53Y5GWOVMJ3ZJLMF75FV3H2D",
+    "name": "Acai",
+    "category": "Uncategorized",
+    "price": 9.75,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "WOVZRZOFUVVKGC5OY3KJDYVL",
+    "name": "Mocha Chai",
+    "category": "Uncategorized",
+    "price": 6.5,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "GXKQKDAUDJSIATTGCJBHFFZI",
+    "name": "Add Whip",
+    "category": "Uncategorized",
+    "price": 0.5,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "RDJ3VAB5BWTVOSAGAIVPLIGJ",
+    "name": "Egg, No Bagel",
+    "category": "Uncategorized",
+    "price": 3,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "YAD3AXPIZVXSIESWO6WA7LIK",
+    "name": "Egg, Cheese, and Bacon",
+    "category": "Uncategorized",
+    "price": 8,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "3RGTZVUMSJL3L4RV2PS7X2I3",
+    "name": "Egg and Cheese",
+    "category": "Uncategorized",
+    "price": 7.25,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "HFSSHG6ZFNH6RGL4RPWFNS2M",
+    "name": "Egg",
+    "category": "Uncategorized",
+    "price": 6.75,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "I4SEZR4FVW5LEJ7QN43LBSXT",
+    "name": "Egg and Bacon",
+    "category": "Uncategorized",
+    "price": 7.5,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "UYVMX27WE77LJYIJVY2V4QGN",
+    "name": "Mexican Mocha",
+    "category": "Uncategorized",
+    "price": 7,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "MIZYO5PJFQHL7XRZIXT2ZCVL",
+    "name": "White Cocoa",
+    "category": "Uncategorized",
+    "price": 6,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "WXYRYBZLZOYJYWPVA3FV7QG4",
+    "name": "White Mocha Chai",
+    "category": "Uncategorized",
+    "price": 6.25,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "E67P4JFACGFPO3PKXAPCUGG2",
+    "name": "White Chocolate Mocha",
+    "category": "Uncategorized",
+    "price": 7.25,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "LVS5B6NX5R2CN6NHERL7CSPY",
+    "name": "Mexican Cocoa",
+    "category": "Uncategorized",
+    "price": 6,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "RTSXTGQWBJDR63LR4Y7UUFVP",
+    "name": "Frozen Caramel Mocha",
+    "category": "Uncategorized",
+    "price": 7.75,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "5NXBAREH4O4Y3RXQ2VZVD5FH",
+    "name": "Frozen Peanut Butter Mocha",
+    "category": "Uncategorized",
+    "price": 7.75,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "3DJMZQHFKSWER7ODG44EEDTS",
+    "name": "Original Frozen Mocha",
+    "category": "Uncategorized",
+    "price": 7.75,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "EYPBD3V7IB5MKPPUBD7EZLPQ",
+    "name": "Large San Pellegrino",
+    "category": "Uncategorized",
+    "price": 4.5,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "WHJ3WCAR64KYVSITKKNQJM5C",
+    "name": "Cardamom Bun Latte",
+    "category": "Uncategorized",
+    "price": 7,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "7VILB6APHCXEZ75EN5NREVRT",
+    "name": "Cafe de Olla Latte",
+    "category": "Uncategorized",
+    "price": 7,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "ITMHYWAGL3ZUIKZOFMVJJ57C",
+    "name": "Champurrado Latte",
+    "category": "Uncategorized",
+    "price": 7,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "EVRHVDWS4VE2HTZKZENTKWTN",
+    "name": "Einspanner Latte",
+    "category": "Uncategorized",
+    "price": 6.75,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "XMGNPJWM57POYHCB4VJC7J7S",
+    "name": "Golden Milk \"Latte\"",
+    "category": "Uncategorized",
+    "price": 6.75,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "ZL3XBZR45RYCWZOHTMN6E6NK",
+    "name": "Hibiscus Bloom",
+    "category": "Uncategorized",
+    "price": 6.75,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "5KHHLZTMZQIYJEQ22WPIKCLL",
+    "name": "Lox Bagel (The Works)",
+    "category": "Uncategorized",
+    "price": 11,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "YEXPB3YWKXP7XRPZAKWQIUHG",
+    "name": "Hot H2o",
+    "category": "Uncategorized",
+    "price": 1.5,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "CTBFYPPMQVWJZHIWGRFWGAM4",
+    "name": "Cliff Bar",
+    "category": "Uncategorized",
+    "price": 2,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "4FHUEKLZOWBF7VWXQA3BR4PQ",
+    "name": "NuGo Bar",
+    "category": "Uncategorized",
+    "price": 2,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "JUW6YQRPIOALEJHV5X6ABZLJ",
+    "name": "Golden Latte",
+    "category": "Uncategorized",
+    "price": 6.75,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "Q5EDCN5IXEEESL3LBX3QPCCY",
+    "name": "Golden Latte (P)",
+    "category": "Uncategorized",
+    "price": 6.75,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  },
+  {
+    "storeId": "coffeetopia",
+    "sourceId": "VY52YT7AJ6Z6DCSLMX7TIHC7",
+    "name": "Brew Bar (P)",
+    "category": "Uncategorized",
+    "price": 6,
+    "scrapedAt": "2026-03-07T21:42:08.120Z"
+  }
+]

@@ -3,16 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape:coffeetopia": "tsc && node dist/integrations/coffeetopia/index.js",
+    "scrape:all": "tsc && node dist/integrations/coffeetopia/index.js && node dist/integrations/hiddenfortress/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@types/node": "^25.3.5",
     "playwright": "^1.58.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
-  }
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.5"
+  },
+  "type": "module"
 }
