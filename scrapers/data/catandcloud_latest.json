@@ -1,0 +1,1946 @@
+[
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822409388322",
+    "name": "Brazil Cavaquinho Natural - 10oz / Whole Bean",
+    "category": "Coffee",
+    "price": 19.65,
+    "scrapedAt": "2026-03-07T22:15:07.888Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822409421090",
+    "name": "Brazil Cavaquinho Natural - 10oz / Drip",
+    "category": "Coffee",
+    "price": 19.65,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822409453858",
+    "name": "Brazil Cavaquinho Natural - 10oz / French Press",
+    "category": "Coffee",
+    "price": 19.65,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822409486626",
+    "name": "Brazil Cavaquinho Natural - 10oz / Espresso",
+    "category": "Coffee",
+    "price": 19.65,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822409552162",
+    "name": "Brazil Cavaquinho Natural - Kilo (2.2lb) / Whole Bean",
+    "category": "Coffee",
+    "price": 62.25,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822409584930",
+    "name": "Brazil Cavaquinho Natural - Kilo (2.2lb) / Drip",
+    "category": "Coffee",
+    "price": 62.25,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822409617698",
+    "name": "Brazil Cavaquinho Natural - Kilo (2.2lb) / French Press",
+    "category": "Coffee",
+    "price": 62.25,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822409650466",
+    "name": "Brazil Cavaquinho Natural - Kilo (2.2lb) / Espresso",
+    "category": "Coffee",
+    "price": 62.25,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822409683234",
+    "name": "Brazil Cavaquinho Natural - 5lb / Whole Bean",
+    "category": "Coffee",
+    "price": 141.48,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822409716002",
+    "name": "Brazil Cavaquinho Natural - 5lb / Drip",
+    "category": "Coffee",
+    "price": 141.48,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822409748770",
+    "name": "Brazil Cavaquinho Natural - 5lb / French Press",
+    "category": "Coffee",
+    "price": 141.48,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822409781538",
+    "name": "Brazil Cavaquinho Natural - 5lb / Espresso",
+    "category": "Coffee",
+    "price": 141.48,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408896802",
+    "name": "Nicaragua Silvio Sanchez Natural - 10oz / Whole Bean",
+    "category": "Coffee",
+    "price": 25.25,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408929570",
+    "name": "Nicaragua Silvio Sanchez Natural - 10oz / Drip",
+    "category": "Coffee",
+    "price": 25.25,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408962338",
+    "name": "Nicaragua Silvio Sanchez Natural - 10oz / French Press",
+    "category": "Coffee",
+    "price": 25.25,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408995106",
+    "name": "Nicaragua Silvio Sanchez Natural - 10oz / Espresso",
+    "category": "Coffee",
+    "price": 25.25,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822409060642",
+    "name": "Nicaragua Silvio Sanchez Natural - Kilo (2.2lb) / Whole Bean",
+    "category": "Coffee",
+    "price": 79.99,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822409093410",
+    "name": "Nicaragua Silvio Sanchez Natural - Kilo (2.2lb) / Drip",
+    "category": "Coffee",
+    "price": 79.99,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822409126178",
+    "name": "Nicaragua Silvio Sanchez Natural - Kilo (2.2lb) / French Press",
+    "category": "Coffee",
+    "price": 79.99,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822409158946",
+    "name": "Nicaragua Silvio Sanchez Natural - Kilo (2.2lb) / Espresso",
+    "category": "Coffee",
+    "price": 79.99,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822409191714",
+    "name": "Nicaragua Silvio Sanchez Natural - 5lb / Whole Bean",
+    "category": "Coffee",
+    "price": 181.8,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822409224482",
+    "name": "Nicaragua Silvio Sanchez Natural - 5lb / Drip",
+    "category": "Coffee",
+    "price": 181.8,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822409257250",
+    "name": "Nicaragua Silvio Sanchez Natural - 5lb / French Press",
+    "category": "Coffee",
+    "price": 181.8,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822409290018",
+    "name": "Nicaragua Silvio Sanchez Natural - 5lb / Espresso",
+    "category": "Coffee",
+    "price": 181.8,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408405282",
+    "name": "Guatemala Familia Vasquez - 10oz / Whole Bean",
+    "category": "Coffee",
+    "price": 29.05,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408438050",
+    "name": "Guatemala Familia Vasquez - 10oz / Drip",
+    "category": "Coffee",
+    "price": 29.05,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408470818",
+    "name": "Guatemala Familia Vasquez - 10oz / French Press",
+    "category": "Coffee",
+    "price": 29.05,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408503586",
+    "name": "Guatemala Familia Vasquez - 10oz / Espresso",
+    "category": "Coffee",
+    "price": 29.05,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408569122",
+    "name": "Guatemala Familia Vasquez - Kilo (2.2lb) / Whole Bean",
+    "category": "Coffee",
+    "price": 92.03,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408601890",
+    "name": "Guatemala Familia Vasquez - Kilo (2.2lb) / Drip",
+    "category": "Coffee",
+    "price": 92.03,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408634658",
+    "name": "Guatemala Familia Vasquez - Kilo (2.2lb) / French Press",
+    "category": "Coffee",
+    "price": 92.03,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408667426",
+    "name": "Guatemala Familia Vasquez - Kilo (2.2lb) / Espresso",
+    "category": "Coffee",
+    "price": 92.03,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408700194",
+    "name": "Guatemala Familia Vasquez - 5lb / Whole Bean",
+    "category": "Coffee",
+    "price": 209.16,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408732962",
+    "name": "Guatemala Familia Vasquez - 5lb / Drip",
+    "category": "Coffee",
+    "price": 209.16,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408765730",
+    "name": "Guatemala Familia Vasquez - 5lb / French Press",
+    "category": "Coffee",
+    "price": 209.16,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408798498",
+    "name": "Guatemala Familia Vasquez - 5lb / Espresso",
+    "category": "Coffee",
+    "price": 209.16,
+    "scrapedAt": "2026-03-07T22:15:07.889Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822407880994",
+    "name": "Honduras Angel Antonio Rivera - 10oz / Whole Bean",
+    "category": "Coffee",
+    "price": 29.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822407913762",
+    "name": "Honduras Angel Antonio Rivera - 10oz / Drip",
+    "category": "Coffee",
+    "price": 29.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822407946530",
+    "name": "Honduras Angel Antonio Rivera - 10oz / French Press",
+    "category": "Coffee",
+    "price": 29.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822407979298",
+    "name": "Honduras Angel Antonio Rivera - 10oz / Espresso",
+    "category": "Coffee",
+    "price": 29.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408044834",
+    "name": "Honduras Angel Antonio Rivera - Kilo (2.2lb) / Whole Bean",
+    "category": "Coffee",
+    "price": 93.46,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408077602",
+    "name": "Honduras Angel Antonio Rivera - Kilo (2.2lb) / Drip",
+    "category": "Coffee",
+    "price": 93.46,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408110370",
+    "name": "Honduras Angel Antonio Rivera - Kilo (2.2lb) / French Press",
+    "category": "Coffee",
+    "price": 93.46,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408143138",
+    "name": "Honduras Angel Antonio Rivera - Kilo (2.2lb) / Espresso",
+    "category": "Coffee",
+    "price": 93.46,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408175906",
+    "name": "Honduras Angel Antonio Rivera - 5lb / Whole Bean",
+    "category": "Coffee",
+    "price": 212.4,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408208674",
+    "name": "Honduras Angel Antonio Rivera - 5lb / Drip",
+    "category": "Coffee",
+    "price": 212.4,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408241442",
+    "name": "Honduras Angel Antonio Rivera - 5lb / French Press",
+    "category": "Coffee",
+    "price": 212.4,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822408274210",
+    "name": "Honduras Angel Antonio Rivera - 5lb / Espresso",
+    "category": "Coffee",
+    "price": 212.4,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822407389474",
+    "name": "Ethiopia Yukro - 10oz / Whole Bean",
+    "category": "Coffee",
+    "price": 27.35,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822407422242",
+    "name": "Ethiopia Yukro - 10oz / Drip",
+    "category": "Coffee",
+    "price": 27.35,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822407455010",
+    "name": "Ethiopia Yukro - 10oz / French Press",
+    "category": "Coffee",
+    "price": 27.35,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822407487778",
+    "name": "Ethiopia Yukro - 10oz / Espresso",
+    "category": "Coffee",
+    "price": 27.35,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822407553314",
+    "name": "Ethiopia Yukro - Kilo (2.2lb) / Whole Bean",
+    "category": "Coffee",
+    "price": 86.64,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822407586082",
+    "name": "Ethiopia Yukro - Kilo (2.2lb) / Drip",
+    "category": "Coffee",
+    "price": 86.64,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822407618850",
+    "name": "Ethiopia Yukro - Kilo (2.2lb) / French Press",
+    "category": "Coffee",
+    "price": 86.64,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822407651618",
+    "name": "Ethiopia Yukro - Kilo (2.2lb) / Espresso",
+    "category": "Coffee",
+    "price": 86.64,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822407684386",
+    "name": "Ethiopia Yukro - 5lb / Whole Bean",
+    "category": "Coffee",
+    "price": 196.92,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822407717154",
+    "name": "Ethiopia Yukro - 5lb / Drip",
+    "category": "Coffee",
+    "price": 196.92,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822407749922",
+    "name": "Ethiopia Yukro - 5lb / French Press",
+    "category": "Coffee",
+    "price": 196.92,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50822407782690",
+    "name": "Ethiopia Yukro - 5lb / Espresso",
+    "category": "Coffee",
+    "price": 196.92,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50696168538402",
+    "name": "The Rainbow Connection Sticker",
+    "category": "Uncategorized",
+    "price": 1,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50696110899490",
+    "name": "Get in the Game Sticker",
+    "category": "Uncategorized",
+    "price": 1,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50647973888290",
+    "name": "Honduras Nelin Guzman Honey - 10oz / Whole Bean",
+    "category": "Coffee",
+    "price": 29.75,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50647973921058",
+    "name": "Honduras Nelin Guzman Honey - 10oz / Drip",
+    "category": "Coffee",
+    "price": 29.75,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50647973953826",
+    "name": "Honduras Nelin Guzman Honey - 10oz / French Press",
+    "category": "Coffee",
+    "price": 29.75,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50647973986594",
+    "name": "Honduras Nelin Guzman Honey - 10oz / Espresso",
+    "category": "Coffee",
+    "price": 29.75,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50647974052130",
+    "name": "Honduras Nelin Guzman Honey - Kilo (2.2lb) / Whole Bean",
+    "category": "Coffee",
+    "price": 91.75,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50647974084898",
+    "name": "Honduras Nelin Guzman Honey - Kilo (2.2lb) / Drip",
+    "category": "Coffee",
+    "price": 91.75,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50647974117666",
+    "name": "Honduras Nelin Guzman Honey - Kilo (2.2lb) / French Press",
+    "category": "Coffee",
+    "price": 91.75,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50647974150434",
+    "name": "Honduras Nelin Guzman Honey - Kilo (2.2lb) / Espresso",
+    "category": "Coffee",
+    "price": 91.75,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50647974183202",
+    "name": "Honduras Nelin Guzman Honey - 5lb / Whole Bean",
+    "category": "Coffee",
+    "price": 208.75,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50647974215970",
+    "name": "Honduras Nelin Guzman Honey - 5lb / Drip",
+    "category": "Coffee",
+    "price": 208.75,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50647974248738",
+    "name": "Honduras Nelin Guzman Honey - 5lb / French Press",
+    "category": "Coffee",
+    "price": 208.75,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50647974281506",
+    "name": "Honduras Nelin Guzman Honey - 5lb / Espresso",
+    "category": "Coffee",
+    "price": 208.75,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50607471690018",
+    "name": "Just a Dripp-y Pot",
+    "category": "Uncategorized",
+    "price": 36.75,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50607471624482",
+    "name": "Cowpoke Tumbler",
+    "category": "Uncategorized",
+    "price": 31.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50607471591714",
+    "name": "The Bindle Bandanna",
+    "category": "mug",
+    "price": 13.65,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50607471362338",
+    "name": "Small Things Hoodie - xs",
+    "category": "Uncategorized",
+    "price": 47.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50607471395106",
+    "name": "Small Things Hoodie - s",
+    "category": "Uncategorized",
+    "price": 47.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50607471427874",
+    "name": "Small Things Hoodie - m",
+    "category": "Uncategorized",
+    "price": 47.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50607471460642",
+    "name": "Small Things Hoodie - l",
+    "category": "Uncategorized",
+    "price": 47.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50607471493410",
+    "name": "Small Things Hoodie - xl",
+    "category": "Uncategorized",
+    "price": 47.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50607471526178",
+    "name": "Small Things Hoodie - xxl",
+    "category": "Uncategorized",
+    "price": 47.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50515674923298",
+    "name": "Colombia El Mirador Coferment - 8oz / Whole Bean",
+    "category": "Coffee",
+    "price": 39.25,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50515674956066",
+    "name": "Colombia El Mirador Coferment - 8oz / Drip",
+    "category": "Coffee",
+    "price": 39.25,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50515674988834",
+    "name": "Colombia El Mirador Coferment - 8oz / French Press",
+    "category": "Coffee",
+    "price": 39.25,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50515675021602",
+    "name": "Colombia El Mirador Coferment - 8oz / Espresso",
+    "category": "Coffee",
+    "price": 39.25,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50515675087138",
+    "name": "Colombia El Mirador Coferment - Kilo (2.2lb) / Whole Bean",
+    "category": "Coffee",
+    "price": 155.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50515675119906",
+    "name": "Colombia El Mirador Coferment - Kilo (2.2lb) / Drip",
+    "category": "Coffee",
+    "price": 155.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50515675152674",
+    "name": "Colombia El Mirador Coferment - Kilo (2.2lb) / French Press",
+    "category": "Coffee",
+    "price": 155.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50515675185442",
+    "name": "Colombia El Mirador Coferment - Kilo (2.2lb) / Espresso",
+    "category": "Coffee",
+    "price": 155.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50515675218210",
+    "name": "Colombia El Mirador Coferment - 5lb / Whole Bean",
+    "category": "Coffee",
+    "price": 353.25,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50515675250978",
+    "name": "Colombia El Mirador Coferment - 5lb / Drip",
+    "category": "Coffee",
+    "price": 353.25,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50515675283746",
+    "name": "Colombia El Mirador Coferment - 5lb / French Press",
+    "category": "Coffee",
+    "price": 353.25,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50515675316514",
+    "name": "Colombia El Mirador Coferment - 5lb / Espresso",
+    "category": "Coffee",
+    "price": 353.25,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50378960929058",
+    "name": "Birthday Pin",
+    "category": "Uncategorized",
+    "price": 10.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50378960765218",
+    "name": "Birthday Shirt - s",
+    "category": "Uncategorized",
+    "price": 34.95,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50378960797986",
+    "name": "Birthday Shirt - m",
+    "category": "Uncategorized",
+    "price": 34.95,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50378960830754",
+    "name": "Birthday Shirt - l",
+    "category": "Uncategorized",
+    "price": 34.95,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50378960863522",
+    "name": "Birthday Shirt - xl",
+    "category": "Uncategorized",
+    "price": 34.95,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50378960896290",
+    "name": "Birthday Shirt - xxl",
+    "category": "Uncategorized",
+    "price": 34.95,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50066931155234",
+    "name": "Kitty Litter Tee - s",
+    "category": "Uncategorized",
+    "price": 31.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50066931188002",
+    "name": "Kitty Litter Tee - m",
+    "category": "Uncategorized",
+    "price": 31.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50066931220770",
+    "name": "Kitty Litter Tee - l",
+    "category": "Uncategorized",
+    "price": 31.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50066931253538",
+    "name": "Kitty Litter Tee - xl",
+    "category": "Uncategorized",
+    "price": 31.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50066931286306",
+    "name": "Kitty Litter Tee - xxl",
+    "category": "Uncategorized",
+    "price": 31.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50066879676706",
+    "name": "Kitty Litter Crop - s",
+    "category": "Uncategorized",
+    "price": 31.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50066879709474",
+    "name": "Kitty Litter Crop - m",
+    "category": "Uncategorized",
+    "price": 31.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50066879742242",
+    "name": "Kitty Litter Crop - l",
+    "category": "Uncategorized",
+    "price": 31.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50066879775010",
+    "name": "Kitty Litter Crop - xl",
+    "category": "Uncategorized",
+    "price": 31.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "50066879807778",
+    "name": "Kitty Litter Crop - xxl",
+    "category": "Uncategorized",
+    "price": 31.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "49372920906018",
+    "name": "Cat & Cloud Cupping Spoon",
+    "category": "Apparel & Accessories",
+    "price": 25,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "49298188632354",
+    "name": "Instant Coffee 6 Pack - The Answer",
+    "category": "Coffee",
+    "price": 19.45,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "49161516253474",
+    "name": "The Classic Tote",
+    "category": "Apparel",
+    "price": 21,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "48372773388578",
+    "name": "Summer Button Down - xs",
+    "category": "Uncategorized",
+    "price": 57.75,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "48372773421346",
+    "name": "Summer Button Down - s",
+    "category": "Uncategorized",
+    "price": 57.75,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "48372773454114",
+    "name": "Summer Button Down - m",
+    "category": "Uncategorized",
+    "price": 57.75,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "48372773486882",
+    "name": "Summer Button Down - l",
+    "category": "Uncategorized",
+    "price": 57.75,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "48372773519650",
+    "name": "Summer Button Down - xl",
+    "category": "Uncategorized",
+    "price": 57.75,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "48269290864930",
+    "name": "Summer Button Down - xxl",
+    "category": "Uncategorized",
+    "price": 57.75,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "48269212483874",
+    "name": "Summer Mom Hat",
+    "category": "Apparel & Accessories",
+    "price": 26.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "45071887302946",
+    "name": "Cafe Cups - Espresso Cup & Saucer",
+    "category": "mug",
+    "price": 26.25,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "45071887335714",
+    "name": "Cafe Cups - Cappuccino Cup & Saucer",
+    "category": "mug",
+    "price": 27.35,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "45071887368482",
+    "name": "Cafe Cups - Latte Bowl & Saucer",
+    "category": "mug",
+    "price": 29.4,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "31505324048486",
+    "name": "Gift Card (local use) - 10.00",
+    "category": "Uncategorized",
+    "price": 10,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "31505324114022",
+    "name": "Gift Card (local use) - 25.00",
+    "category": "Uncategorized",
+    "price": 25,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "31505324146790",
+    "name": "Gift Card (local use) - 50.00",
+    "category": "Uncategorized",
+    "price": 50,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "31507322044518",
+    "name": "Gift Card (local use) - 100.00",
+    "category": "Uncategorized",
+    "price": 100,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "39764610285670",
+    "name": "Colombia El Tejo - 10oz / Whole Bean",
+    "category": "Coffee",
+    "price": 19.45,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "39764610318438",
+    "name": "Colombia El Tejo - 10oz / Drip",
+    "category": "Coffee",
+    "price": 19.45,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "39764610351206",
+    "name": "Colombia El Tejo - 10oz / French Press",
+    "category": "Coffee",
+    "price": 19.45,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "39764610383974",
+    "name": "Colombia El Tejo - 10oz / Espresso",
+    "category": "Coffee",
+    "price": 19.45,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "39764610416742",
+    "name": "Colombia El Tejo - Kilo (2.2lb) / Whole Bean",
+    "category": "Coffee",
+    "price": 61.65,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "39764610449510",
+    "name": "Colombia El Tejo - Kilo (2.2lb) / Drip",
+    "category": "Coffee",
+    "price": 61.65,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "39764610482278",
+    "name": "Colombia El Tejo - Kilo (2.2lb) / French Press",
+    "category": "Coffee",
+    "price": 61.65,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "39764610515046",
+    "name": "Colombia El Tejo - Kilo (2.2lb) / Espresso",
+    "category": "Coffee",
+    "price": 61.65,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "39764610547814",
+    "name": "Colombia El Tejo - 5lb / Whole Bean",
+    "category": "Coffee",
+    "price": 140,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "39764610580582",
+    "name": "Colombia El Tejo - 5lb / Drip",
+    "category": "Coffee",
+    "price": 140,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "39764610613350",
+    "name": "Colombia El Tejo - 5lb / French Press",
+    "category": "Coffee",
+    "price": 140,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "39764610646118",
+    "name": "Colombia El Tejo - 5lb / Espresso",
+    "category": "Coffee",
+    "price": 140,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "49999676342562",
+    "name": "The Tee Shirt - xs / Sage",
+    "category": "Uncategorized",
+    "price": 21,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "49999676375330",
+    "name": "The Tee Shirt - s / Sage",
+    "category": "Uncategorized",
+    "price": 21,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "49999676408098",
+    "name": "The Tee Shirt - m / Sage",
+    "category": "Uncategorized",
+    "price": 21,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "49999676440866",
+    "name": "The Tee Shirt - l / Sage",
+    "category": "Uncategorized",
+    "price": 21,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "49999676473634",
+    "name": "The Tee Shirt - xl / Sage",
+    "category": "Uncategorized",
+    "price": 21,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "49999676506402",
+    "name": "The Tee Shirt - xxl / Sage",
+    "category": "Uncategorized",
+    "price": 21,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "39489724481638",
+    "name": "The Diner Mug",
+    "category": "mug",
+    "price": 15.75,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "32189595910246",
+    "name": "3 Month Gift Subscription | Monthly - 10oz / Whole Bean",
+    "category": "Coffee",
+    "price": 66,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "32189595943014",
+    "name": "3 Month Gift Subscription | Monthly - 10oz / Drip",
+    "category": "Coffee",
+    "price": 66,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "32189595975782",
+    "name": "3 Month Gift Subscription | Monthly - 10oz / French Press",
+    "category": "Coffee",
+    "price": 66,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "32189596008550",
+    "name": "3 Month Gift Subscription | Monthly - 10oz / Espresso",
+    "category": "Coffee",
+    "price": 66,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "39748141940838",
+    "name": "3 Month Gift Subscription | 2 Week - 10oz / Whole Bean",
+    "category": "Coffee",
+    "price": 132,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "39748141973606",
+    "name": "3 Month Gift Subscription | 2 Week - 10oz / Drip",
+    "category": "Coffee",
+    "price": 132,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "39748142006374",
+    "name": "3 Month Gift Subscription | 2 Week - 10oz / French Press",
+    "category": "Coffee",
+    "price": 132,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "39748142039142",
+    "name": "3 Month Gift Subscription | 2 Week - 10oz / Espresso",
+    "category": "Coffee",
+    "price": 132,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "31507603226726",
+    "name": "Gift Card (online only) - $10",
+    "category": "Uncategorized",
+    "price": 10,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "31507448332390",
+    "name": "Gift Card (online only) - $25",
+    "category": "Uncategorized",
+    "price": 25,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "31507528188006",
+    "name": "Gift Card (online only) - $50",
+    "category": "Uncategorized",
+    "price": 50,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "31507448365158",
+    "name": "Gift Card (online only) - $100",
+    "category": "Uncategorized",
+    "price": 100,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30934789095526",
+    "name": "Ethiopia Kercha Natural - 10oz / Whole Bean",
+    "category": "Coffee",
+    "price": 19,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30934789128294",
+    "name": "Ethiopia Kercha Natural - 10oz / Drip",
+    "category": "Coffee",
+    "price": 19,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30934789161062",
+    "name": "Ethiopia Kercha Natural - 10oz / French Press",
+    "category": "Coffee",
+    "price": 19,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30934789193830",
+    "name": "Ethiopia Kercha Natural - 10oz / Espresso",
+    "category": "Coffee",
+    "price": 19,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30934789226598",
+    "name": "Ethiopia Kercha Natural - Kilo (2.2lb) / Whole Bean",
+    "category": "Coffee",
+    "price": 60.2,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30934789259366",
+    "name": "Ethiopia Kercha Natural - Kilo (2.2lb) / Drip",
+    "category": "Coffee",
+    "price": 60.2,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30934789292134",
+    "name": "Ethiopia Kercha Natural - Kilo (2.2lb) / French Press",
+    "category": "Coffee",
+    "price": 60.2,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30934789324902",
+    "name": "Ethiopia Kercha Natural - Kilo (2.2lb) / Espresso",
+    "category": "Coffee",
+    "price": 60.2,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30934789357670",
+    "name": "Ethiopia Kercha Natural - 5lb / Whole Bean",
+    "category": "Coffee",
+    "price": 136.8,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30934789390438",
+    "name": "Ethiopia Kercha Natural - 5lb / Drip",
+    "category": "Coffee",
+    "price": 136.8,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30934789423206",
+    "name": "Ethiopia Kercha Natural - 5lb / French Press",
+    "category": "Coffee",
+    "price": 136.8,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30934789455974",
+    "name": "Ethiopia Kercha Natural - 5lb / Espresso",
+    "category": "Coffee",
+    "price": 136.8,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "27976543404134",
+    "name": "After Party - 10oz / Whole Bean",
+    "category": "Coffee",
+    "price": 16.7,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "27976543469670",
+    "name": "After Party - 10oz / Drip",
+    "category": "Coffee",
+    "price": 16.7,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "27976543535206",
+    "name": "After Party - 10oz / French Press",
+    "category": "Coffee",
+    "price": 16.7,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "27976543600742",
+    "name": "After Party - 10oz / Espresso",
+    "category": "Coffee",
+    "price": 16.7,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "27976543666278",
+    "name": "After Party - Kilo (2.2lb) / Whole Bean",
+    "category": "Coffee",
+    "price": 52.9,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "27976543699046",
+    "name": "After Party - Kilo (2.2lb) / Drip",
+    "category": "Coffee",
+    "price": 52.9,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "27976543764582",
+    "name": "After Party - Kilo (2.2lb) / French Press",
+    "category": "Coffee",
+    "price": 52.9,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "27976543797350",
+    "name": "After Party - Kilo (2.2lb) / Espresso",
+    "category": "Coffee",
+    "price": 52.9,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "27976543830118",
+    "name": "After Party - 5lb / Whole Bean",
+    "category": "Coffee",
+    "price": 120.25,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "27976543862886",
+    "name": "After Party - 5lb / Drip",
+    "category": "Coffee",
+    "price": 120.25,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "27976543895654",
+    "name": "After Party - 5lb / French Press",
+    "category": "Coffee",
+    "price": 120.25,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "27976543928422",
+    "name": "After Party - 5lb / Espresso",
+    "category": "Coffee",
+    "price": 120.25,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005546573",
+    "name": "The Best Friends Blend - 10oz / Whole Bean",
+    "category": "Coffee",
+    "price": 19.7,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005546637",
+    "name": "The Best Friends Blend - 10oz / Drip",
+    "category": "Coffee",
+    "price": 19.7,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005546701",
+    "name": "The Best Friends Blend - 10oz / French Press",
+    "category": "Coffee",
+    "price": 19.7,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005546765",
+    "name": "The Best Friends Blend - 10oz / Espresso",
+    "category": "Coffee",
+    "price": 19.7,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005546829",
+    "name": "The Best Friends Blend - Kilo (2.2lb) / Whole Bean",
+    "category": "Coffee",
+    "price": 62.4,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005546893",
+    "name": "The Best Friends Blend - Kilo (2.2lb) / Drip",
+    "category": "Coffee",
+    "price": 62.4,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005546957",
+    "name": "The Best Friends Blend - Kilo (2.2lb) / French Press",
+    "category": "Coffee",
+    "price": 62.4,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005547021",
+    "name": "The Best Friends Blend - Kilo (2.2lb) / Espresso",
+    "category": "Coffee",
+    "price": 62.4,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005547085",
+    "name": "The Best Friends Blend - 5lb / Whole Bean",
+    "category": "Coffee",
+    "price": 141.84,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005547149",
+    "name": "The Best Friends Blend - 5lb / Drip",
+    "category": "Coffee",
+    "price": 141.84,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005547213",
+    "name": "The Best Friends Blend - 5lb / French Press",
+    "category": "Coffee",
+    "price": 141.84,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005547277",
+    "name": "The Best Friends Blend - 5lb / Espresso",
+    "category": "Coffee",
+    "price": 141.84,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005828429",
+    "name": "Night Shift - 10oz / Whole Bean",
+    "category": "Coffee",
+    "price": 16.7,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005828493",
+    "name": "Night Shift - 10oz / Drip",
+    "category": "Coffee",
+    "price": 16.7,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005828557",
+    "name": "Night Shift - 10oz / French Press",
+    "category": "Coffee",
+    "price": 16.7,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005828621",
+    "name": "Night Shift - 10oz / Espresso",
+    "category": "Coffee",
+    "price": 16.7,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005828685",
+    "name": "Night Shift - Kilo (2.2lb) / Whole Bean",
+    "category": "Coffee",
+    "price": 52.9,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005828749",
+    "name": "Night Shift - Kilo (2.2lb) / Drip",
+    "category": "Coffee",
+    "price": 52.9,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005828813",
+    "name": "Night Shift - Kilo (2.2lb) / French Press",
+    "category": "Coffee",
+    "price": 52.9,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005828877",
+    "name": "Night Shift - Kilo (2.2lb) / Espresso",
+    "category": "Coffee",
+    "price": 52.9,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005828941",
+    "name": "Night Shift - 5lb / Whole Bean",
+    "category": "Coffee",
+    "price": 120.24,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005829005",
+    "name": "Night Shift - 5lb / Drip",
+    "category": "Coffee",
+    "price": 120.24,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005829069",
+    "name": "Night Shift - 5lb / French Press",
+    "category": "Coffee",
+    "price": 120.24,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30005829133",
+    "name": "Night Shift - 5lb / Espresso",
+    "category": "Coffee",
+    "price": 120.24,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30006553293",
+    "name": "Friend Zone Decaf - 10oz / Whole Bean",
+    "category": "Coffee",
+    "price": 17.4,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30006553357",
+    "name": "Friend Zone Decaf - 10oz / Drip",
+    "category": "Coffee",
+    "price": 17.4,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30006553421",
+    "name": "Friend Zone Decaf - 10oz / French Press",
+    "category": "Coffee",
+    "price": 17.4,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30006553485",
+    "name": "Friend Zone Decaf - 10oz / Espresso",
+    "category": "Coffee",
+    "price": 17.4,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30006553549",
+    "name": "Friend Zone Decaf - Kilo (2.2lb) / Whole Bean",
+    "category": "Coffee",
+    "price": 55.15,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30006553613",
+    "name": "Friend Zone Decaf - Kilo (2.2lb) / Drip",
+    "category": "Coffee",
+    "price": 55.15,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30006553677",
+    "name": "Friend Zone Decaf - Kilo (2.2lb) / French Press",
+    "category": "Coffee",
+    "price": 55.15,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30006553741",
+    "name": "Friend Zone Decaf - Kilo (2.2lb) / Espresso",
+    "category": "Coffee",
+    "price": 55.15,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30006553805",
+    "name": "Friend Zone Decaf - 5lb / Whole Bean",
+    "category": "Coffee",
+    "price": 125.28,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30006553869",
+    "name": "Friend Zone Decaf - 5lb / Drip",
+    "category": "Coffee",
+    "price": 125.28,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30006553933",
+    "name": "Friend Zone Decaf - 5lb / French Press",
+    "category": "Coffee",
+    "price": 125.28,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "30006553997",
+    "name": "Friend Zone Decaf - 5lb / Espresso",
+    "category": "Coffee",
+    "price": 125.28,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "21326929281",
+    "name": "The Answer - 10oz / Whole Bean",
+    "category": "Coffee",
+    "price": 16.4,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "21327362433",
+    "name": "The Answer - 10oz / Drip",
+    "category": "Coffee",
+    "price": 16.4,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "21327362497",
+    "name": "The Answer - 10oz / French Press",
+    "category": "Coffee",
+    "price": 16.4,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "21327362625",
+    "name": "The Answer - 10oz / Espresso",
+    "category": "Coffee",
+    "price": 16.4,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "21327362689",
+    "name": "The Answer - Kilo (2.2lb) / Whole Bean",
+    "category": "Coffee",
+    "price": 51.95,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "21327362753",
+    "name": "The Answer - Kilo (2.2lb) / Drip",
+    "category": "Coffee",
+    "price": 51.95,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "21327362817",
+    "name": "The Answer - Kilo (2.2lb) / French Press",
+    "category": "Coffee",
+    "price": 51.95,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "21327362881",
+    "name": "The Answer - Kilo (2.2lb) / Espresso",
+    "category": "Coffee",
+    "price": 51.95,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "21327362945",
+    "name": "The Answer - 5lb / Whole Bean",
+    "category": "Coffee",
+    "price": 118.08,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "21327363009",
+    "name": "The Answer - 5lb / Drip",
+    "category": "Coffee",
+    "price": 118.08,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "21327363073",
+    "name": "The Answer - 5lb / French Press",
+    "category": "Coffee",
+    "price": 118.08,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "21327363137",
+    "name": "The Answer - 5lb / Espresso",
+    "category": "Coffee",
+    "price": 118.08,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "4346595201",
+    "name": "Roaster's Choice Subscription - 10oz / Whole Bean",
+    "category": "Uncategorized",
+    "price": 22,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "6128525569",
+    "name": "Roaster's Choice Subscription - 10oz / Drip",
+    "category": "Uncategorized",
+    "price": 22,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "6128525633",
+    "name": "Roaster's Choice Subscription - 10oz / French Press",
+    "category": "Uncategorized",
+    "price": 22,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "6128525697",
+    "name": "Roaster's Choice Subscription - 10oz / Espresso",
+    "category": "Uncategorized",
+    "price": 22,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "6128525761",
+    "name": "Roaster's Choice Subscription - Kilo (2.2lb) / Whole Bean",
+    "category": "Uncategorized",
+    "price": 77.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "6128525825",
+    "name": "Roaster's Choice Subscription - Kilo (2.2lb) / Drip",
+    "category": "Uncategorized",
+    "price": 77.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "6128525889",
+    "name": "Roaster's Choice Subscription - Kilo (2.2lb) / French Press",
+    "category": "Uncategorized",
+    "price": 77.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "6128525953",
+    "name": "Roaster's Choice Subscription - Kilo (2.2lb) / Espresso",
+    "category": "Uncategorized",
+    "price": 77.5,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "6128526017",
+    "name": "Roaster's Choice Subscription - 5lb / Whole Bean",
+    "category": "Uncategorized",
+    "price": 176,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "6128526081",
+    "name": "Roaster's Choice Subscription - 5lb / Drip",
+    "category": "Uncategorized",
+    "price": 176,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "6128526145",
+    "name": "Roaster's Choice Subscription - 5lb / French Press",
+    "category": "Uncategorized",
+    "price": 176,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  },
+  {
+    "storeId": "catandcloud",
+    "sourceId": "6128526209",
+    "name": "Roaster's Choice Subscription - 5lb / Espresso",
+    "category": "Uncategorized",
+    "price": 176,
+    "scrapedAt": "2026-03-07T22:15:07.890Z"
+  }
+]

@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scrape:coffeetopia": "tsc && node dist/integrations/coffeetopia/index.js",
-    "scrape:all": "tsc && node dist/integrations/coffeetopia/index.js && node dist/integrations/hiddenfortress/index.js"
+    "scrape:all": "tsc && node dist/integrations/coffeetopia/index.js && node dist/integrations/hiddenfortress/index.js && node dist/integrations/11thhour/index.js && node dist/integrations/catandcloud/index.js && node dist/integrations/verve/index.js"
   },
   "keywords": [],
   "author": "",

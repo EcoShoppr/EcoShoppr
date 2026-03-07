@@ -43,42 +43,67 @@ export class SquareAdapter implements Scraper {
             }
         }
 
-        const storeLocations = state.storeLocations?.locations || [];
-        const locationId = storeLocations[0]?.id || state.storeInfo?.shipping_location_ids?.[0];
+        const storeLocationsUrl = `https://cdn5.editmysite.com/app/store/api/v28/editor/users/${userId}/sites/${classicSiteId}/store-locations`;
+        const locResponse = await fetch(storeLocationsUrl);
+        let locationIds: string[] = [];
 
-        if (!classicSiteId || !locationId) {
-            throw new Error(`[${this.storeId}] Missing required API parameters: classicSiteId=${classicSiteId}, locationId=${locationId}`);
+        if (locResponse.ok) {
+            const locData = await locResponse.json();
+            if (locData.data && Array.isArray(locData.data)) {
+                locationIds = locData.data.map((l: any) => l.id);
+            }
         }
 
-        console.log(`[${this.storeId}] Extracted IDs - User: ${userId}, Site: ${classicSiteId}, Location: ${locationId}`);
-
-        const apiUrl = `https://cdn5.editmysite.com/app/store/api/v28/editor/users/${userId}/sites/${classicSiteId}/store-locations/${locationId}/products?page=1&per_page=200&include=images,discounts,media_files&cache-version=2023-11-13`;
-
-        console.log(`[${this.storeId}] Fetching product catalog from Square API...`);
-        const apiResponse = await fetch(apiUrl);
-        if (!apiResponse.ok) {
-            throw new Error(`[${this.storeId}] API request failed with status: ${apiResponse.status}`);
+        // Fallback if the endpoint fails
+        if (locationIds.length === 0) {
+            const htmlStoreLocations = state.storeLocations?.locations || [];
+            const fallbackLocId = htmlStoreLocations[0]?.id || state.storeInfo?.shipping_location_ids?.[0];
+            if (fallbackLocId) locationIds.push(fallbackLocId);
         }
-        const apiData = await apiResponse.json();
 
-        const products = apiData.data || [];
+        if (locationIds.length === 0) {
+            throw new Error(`[${this.storeId}] Could not find any location IDs.`);
+        }
+
+        console.log(`[${this.storeId}] Extracted IDs - User: ${userId}, Site: ${classicSiteId}, Locations: ${locationIds.join(', ')}`);
+
         const collectedProducts: StandardizedProduct[] = [];
+        const seenIds = new Set<string>();
 
-        for (const item of products) {
-            const name = item.name;
-            const priceInfo = item.price;
+        // Iterate over all locations to aggregate total catalog
+        for (const locId of locationIds) {
+            const apiUrl = `https://cdn5.editmysite.com/app/store/api/v28/editor/users/${userId}/sites/${classicSiteId}/store-locations/${locId}/products?page=1&per_page=200&include=images,discounts,media_files&cache-version=2023-11-13`;
 
-            const rawPrice = priceInfo?.high || priceInfo?.low || '0';
-            const price = parseFloat(rawPrice);
+            console.log(`[${this.storeId}] Fetching catalog from location ${locId}...`);
+            const apiResponse = await fetch(apiUrl);
 
-            collectedProducts.push({
-                storeId: this.storeId,
-                sourceId: item.id,
-                name: name,
-                category: "Uncategorized",
-                price: price,
-                scrapedAt: new Date().toISOString()
-            });
+            if (!apiResponse.ok) {
+                console.warn(`[${this.storeId}] API request failed for location ${locId} with status ${apiResponse.status}`);
+                continue;
+            }
+
+            const apiData = await apiResponse.json();
+            const products = apiData.data || [];
+
+            for (const item of products) {
+                if (seenIds.has(item.id)) continue;
+                seenIds.add(item.id);
+
+                const name = item.name;
+                const priceInfo = item.price;
+
+                const rawPrice = priceInfo?.high || priceInfo?.low || '0';
+                const price = parseFloat(rawPrice);
+
+                collectedProducts.push({
+                    storeId: this.storeId,
+                    sourceId: item.id,
+                    name: name,
+                    category: "Uncategorized",
+                    price: price,
+                    scrapedAt: new Date().toISOString()
+                });
+            }
         }
 
         // Project root / data directory

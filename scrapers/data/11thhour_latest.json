@@ -1,0 +1,810 @@
+[
+  {
+    "storeId": "11thhour",
+    "sourceId": "2WFMV2DF25NEWMAKLZO4NPAQ",
+    "name": "Bowl of Soul",
+    "category": "Uncategorized",
+    "price": 5.75,
+    "scrapedAt": "2026-03-07T22:15:06.327Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "JADRAIKKLTHEL5J6TQSAEWD5",
+    "name": "Espresso",
+    "category": "Uncategorized",
+    "price": 4.5,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "JNUIKXOAEKZ6Q2UT5GTIWTDV",
+    "name": "Macchiato",
+    "category": "Uncategorized",
+    "price": 4.75,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "HGZ4RUFAWDRCQHPKY5L2TLTO",
+    "name": "Cappuccino",
+    "category": "Uncategorized",
+    "price": 5.5,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "IYBHCIS3FTRQ5QTLNZFUHDWF",
+    "name": "1 N 1",
+    "category": "Uncategorized",
+    "price": 4.75,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "5SOJG2HSS7XVF2TRW7BGZAJF",
+    "name": "Cortado",
+    "category": "Uncategorized",
+    "price": 5,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "L6YOMIGRFEH7DULTT4LYWOIR",
+    "name": "Latte",
+    "category": "Uncategorized",
+    "price": 6,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "SXLMKUIEOKZYFJTCTCZQLSBX",
+    "name": "Cafe Au Lait",
+    "category": "Uncategorized",
+    "price": 5.25,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "5JZZELL5Y643WJQXSCJYM2DG",
+    "name": "Mocha",
+    "category": "Uncategorized",
+    "price": 7,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "CBEN5CLSJ7RH6JU2D6O35RDK",
+    "name": "Vanilla Latte",
+    "category": "Uncategorized",
+    "price": 7,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "YHCPCYD7AENVHOAMB6J5ZZ6S",
+    "name": "Salted Carmel Latte",
+    "category": "Uncategorized",
+    "price": 7,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "ZGKTANCCZGCQ63NPI4R5VMQN",
+    "name": "Honey Bee Latte",
+    "category": "Uncategorized",
+    "price": 7,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "WVZL2PK5QRBPXUH3JETOUSOR",
+    "name": "Golden Milk Chai",
+    "category": "Uncategorized",
+    "price": 6.5,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "CA3AFO2IPDA3DLG6DIYIZGGW",
+    "name": "Matcha Latte",
+    "category": "Uncategorized",
+    "price": 6.25,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "TQTYLBXX3BKISKNJYGZHKXVN",
+    "name": "Flat Green",
+    "category": "Uncategorized",
+    "price": 5.75,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "5QNV5DLQF6BUQFVHTYOLKQHS",
+    "name": "Conflicted Hippie",
+    "category": "Uncategorized",
+    "price": 7.75,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "VY4JYRQN4STFCWR7XLBSR6K3",
+    "name": "Chai",
+    "category": "Uncategorized",
+    "price": 6.25,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "PM4TTSKBTAVDGDFNJADXY7QW",
+    "name": "Iced Green Bee",
+    "category": "Uncategorized",
+    "price": 6.75,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "GOCTAK4S3NIOXXC5VYM6ND7K",
+    "name": "Hot Chocolate",
+    "category": "Uncategorized",
+    "price": 5,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "YKBS7JAV5R6AV4FWZDF65DXX",
+    "name": "Steamer",
+    "category": "Uncategorized",
+    "price": 3.25,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "LF3QM2NDZLY3YG57WNTVAYHM",
+    "name": "Red Eye",
+    "category": "Uncategorized",
+    "price": 5,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "EU3ZE5LGKZ3UTBPG2WGJRUAC",
+    "name": "Raspberry Mocha",
+    "category": "Uncategorized",
+    "price": 8,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "FPO5ASQZIKHDN7353GLWE5SH",
+    "name": "Dark Matter",
+    "category": "Uncategorized",
+    "price": 95,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "2KDXXJQST5EQZ6AFJD7FRJVA",
+    "name": "Americano",
+    "category": "Uncategorized",
+    "price": 4.75,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "FTIMLCOX56LZQH5FU7WFL5BQ",
+    "name": "Breakfast Biscuit",
+    "category": "Uncategorized",
+    "price": 12,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "XJNS55ENFJTAOEA5DNQVOIH4",
+    "name": "11th Hour Bandanas",
+    "category": "Uncategorized",
+    "price": 15,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "LHGIVDLROMUXQSZ7XRZHGHHY",
+    "name": "Cardamom Cake (GF) Preorder",
+    "category": "Uncategorized",
+    "price": 39,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "KVIXIIHM54MSQWSBYZNIPCVG",
+    "name": "Matcha Lemonade",
+    "category": "Uncategorized",
+    "price": 6.75,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "YMUWLEREAAJ2SDKDGUV3WK6L",
+    "name": "Rotating Single Origins",
+    "category": "Uncategorized",
+    "price": 125,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "CBVYCF2NKCZSHSH7ZRHI3YG6",
+    "name": "White Sweatshirt",
+    "category": "Uncategorized",
+    "price": 55,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "APNI2APKT5AG4DGCYKDK4EXI",
+    "name": "White T-Shirt",
+    "category": "Uncategorized",
+    "price": 25,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "VTTQKR6GH2FWYLTGVZFENYYG",
+    "name": "Rotating Blends",
+    "category": "Uncategorized",
+    "price": 125,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "D5LNJQBFR5GC3LNQLYNHBHRG",
+    "name": "Cheddar Chive Biscuits - Preorder",
+    "category": "Uncategorized",
+    "price": 30,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "UKLHZQTSABLX5L4DNX5335KP",
+    "name": "Tahini Brownies - Preorder",
+    "category": "Uncategorized",
+    "price": 45,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "5GEL3Z3JBGKM4MMW4OYDZLBH",
+    "name": "Earl Grey Cookie - Preorder",
+    "category": "Uncategorized",
+    "price": 39,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "VV6CP4DDLHS5UR42LYXVURIG",
+    "name": "Chocolate Chip Banana Cookie - Preorder",
+    "category": "Uncategorized",
+    "price": 39,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "GO4PNU2FOHBT4R7ZAMXSOUWY",
+    "name": "Almond Scones (GF) - Preorder",
+    "category": "Uncategorized",
+    "price": 39,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "3W23YNQNWQUJ47KS5DY4AXHS",
+    "name": "Loaded Avocado Toast",
+    "category": "Uncategorized",
+    "price": 15,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "KWQB2VJB2FLPL5S3RBGWXB5P",
+    "name": "Protein Bowl",
+    "category": "Uncategorized",
+    "price": 16,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "D2MIYLVCPWNPPGDQC6OIZB7Y",
+    "name": "Cheesy Potatoes",
+    "category": "Uncategorized",
+    "price": 15,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "MAEHVSZNND3VUKUID5WM6ANE",
+    "name": "Breakfast Burrito",
+    "category": "Uncategorized",
+    "price": 15,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "LFUYZNBXTEW4D7WJFRNTFMQO",
+    "name": "Hot Tea",
+    "category": "Uncategorized",
+    "price": 4.75,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "55NRCXJOSLWLBNN6MBB4QWR4",
+    "name": "Ranchero Omelette",
+    "category": "Uncategorized",
+    "price": 14,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "TVNIK6JQVKQJUIOGUTL3KLR4",
+    "name": "Overnight Oats Grab and Go",
+    "category": "Uncategorized",
+    "price": 9,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "DFAFQSSZ3VHSZZBJ3KYQFM7V",
+    "name": "Hot Water",
+    "category": "Uncategorized",
+    "price": 0.5,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "66YAIHHBIODISLCYHNRPJ347",
+    "name": "Honduras Joel Guzman",
+    "category": "Uncategorized",
+    "price": 127,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "OUURKEPJ4DEO6RKPFYIGOYGJ",
+    "name": "Nitro Cold Brew",
+    "category": "Uncategorized",
+    "price": 5.5,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "3MMOKR3MVBCBPDKYZSNHKSVG",
+    "name": "Peach Co-Ferment | La Sirena, Colombia",
+    "category": "Uncategorized",
+    "price": 29,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "5OWRD7V3XAHBH46R4O3YKDZA",
+    "name": "Blueberry Co-Ferment | La Sirena, Colombia",
+    "category": "Uncategorized",
+    "price": 29,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "HDHLQRQ2H7RVT3D5MXHEOYRW",
+    "name": "Co-Ferment Trio | La Sirena, Colombia",
+    "category": "Uncategorized",
+    "price": 85,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "3VQ6UNO7GUC7QQOFF6ODWTPR",
+    "name": "Blueberry Co-ferment",
+    "category": "Uncategorized",
+    "price": 29,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "DH4PJKXN5JRQ5C3Q57A2MMOJ",
+    "name": "Green Apple Co-Ferment",
+    "category": "Uncategorized",
+    "price": 29,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "4FRYPUTAN2CMB4CCC55QLQ26",
+    "name": "Peach Co-Ferment",
+    "category": "Uncategorized",
+    "price": 29,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "DFAPFS4VNGEZSTQEBTBFHSE2",
+    "name": "BLT",
+    "category": "Uncategorized",
+    "price": 14,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "VGYKD6Y4XVHMY6D46AMB7SAG",
+    "name": "Black Coffee",
+    "category": "Uncategorized",
+    "price": 4.5,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "CV6GMXOAHUNVTB7VLGQ6BK6S",
+    "name": "Tea",
+    "category": "Uncategorized",
+    "price": 4.25,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "4GDRXFGBL2QM6P4FHMEULQGU",
+    "name": "Conversations Matter",
+    "category": "Uncategorized",
+    "price": 95,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "FUUEWJRVDQHJ2EAM4FGVVEFJ",
+    "name": "This Is It",
+    "category": "Uncategorized",
+    "price": 110,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "MKACL4DO4U3DRFCDY5MY7MZH",
+    "name": "Theory of Everything",
+    "category": "Uncategorized",
+    "price": 90,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "VOBLP6F7SYXQ6DWXUDPN4J3L",
+    "name": "Placebo Effect",
+    "category": "Uncategorized",
+    "price": 90,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "4FJ4622JOK5FOWDU3GFK5A3M",
+    "name": "Yogurt Bowl DT",
+    "category": "Uncategorized",
+    "price": 11,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "CTMGUXVMPJ5SANHXS46NECBI",
+    "name": "Shadow Work",
+    "category": "Uncategorized",
+    "price": 93,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "7CZROANHCVR5IQPOL5VQFB3N",
+    "name": "Original Avocado Toast",
+    "category": "Uncategorized",
+    "price": 11.5,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "75Y3OTTQBSO2ZU3M7DATPMUW",
+    "name": "Pumpkin Chia Pudding",
+    "category": "Uncategorized",
+    "price": 9,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "BOTQG7PF4EPOCNBJUJNGLC2O",
+    "name": "Mimosa",
+    "category": "Uncategorized",
+    "price": 12,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "XG4M2XHKFV3HDVLUAWWFIXE6",
+    "name": "The Brunch Bowl DT",
+    "category": "Uncategorized",
+    "price": 13,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "BLLI7W4MIN6K6XYPDMYJN34W",
+    "name": "Chocolate Chunk Bread Pudding",
+    "category": "Uncategorized",
+    "price": 9,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "CLKCO3SVDHM36UTEWZSTX42A",
+    "name": "Just an egg",
+    "category": "Uncategorized",
+    "price": 0,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "GY7XKIE5UYMJN3TDPXFCGG4T",
+    "name": "Almond Butter Toast",
+    "category": "Uncategorized",
+    "price": 11.5,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "I27JGBUKG6Z4ULM3J42WUAEJ",
+    "name": "Scallion Egg Breakfast Sandwich",
+    "category": "Uncategorized",
+    "price": 14,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "JQECTWPS7H76ROIWE3SBLO2T",
+    "name": "Ethiopia Idido Wogida",
+    "category": "Uncategorized",
+    "price": 132,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "KR3BRCI3GQ6Y7TO3QZWXS2UL",
+    "name": "Ethiopia Kayon Mountain",
+    "category": "Uncategorized",
+    "price": 132,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "PVRP32CE3KPEBWFOFFHM4LGV",
+    "name": "Miso Carrot Soup",
+    "category": "Uncategorized",
+    "price": 7,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "RJDRBAUPFKR3UMJ3MJIDDFXP",
+    "name": "Garden Mug",
+    "category": "Uncategorized",
+    "price": 55,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "USMISSN76HP6YGNJX2PCDQW4",
+    "name": "Yogurt Bowl Grab and Go",
+    "category": "Uncategorized",
+    "price": 9.5,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "V6XKPM4JVIWTFBU66QVJOJT5",
+    "name": "Creamy Polenta Bowl",
+    "category": "Uncategorized",
+    "price": 14,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "WXD3JI7WL2WV7RCGG6MW72QU",
+    "name": "Side Salad",
+    "category": "Uncategorized",
+    "price": 4,
+    "scrapedAt": "2026-03-07T22:15:06.328Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "JEEGP3IWK5JPNNKNWOV4UPEI",
+    "name": "Bagel",
+    "category": "Uncategorized",
+    "price": 4,
+    "scrapedAt": "2026-03-07T22:15:06.786Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "O46IOYICAGL2JU7MUZUKH7MK",
+    "name": "Simple Avocado Toast",
+    "category": "Uncategorized",
+    "price": 9,
+    "scrapedAt": "2026-03-07T22:15:06.786Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "V5HBXOI7EAM5W3RAIJBZX53D",
+    "name": "Veggie Bagel",
+    "category": "Uncategorized",
+    "price": 13,
+    "scrapedAt": "2026-03-07T22:15:06.786Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "BDAUSYLGVHIYE3THN5Z4SODT",
+    "name": "Overnight Oats",
+    "category": "Uncategorized",
+    "price": 9,
+    "scrapedAt": "2026-03-07T22:15:06.786Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "DCEHDDIUFWEA52FDMHQQASKM",
+    "name": "Burrata Toast",
+    "category": "Uncategorized",
+    "price": 14,
+    "scrapedAt": "2026-03-07T22:15:06.786Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "DLPMAH3EYEZIUVKRJJX5DMKG",
+    "name": "Green Eggs and Ham",
+    "category": "Uncategorized",
+    "price": 13,
+    "scrapedAt": "2026-03-07T22:15:06.786Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "FFC2OKKRAR4DCSFCUP55IKK2",
+    "name": "Breakfast Sandiwch",
+    "category": "Uncategorized",
+    "price": 10,
+    "scrapedAt": "2026-03-07T22:15:06.786Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "IE357PD553VAVSPC3DE3J44F",
+    "name": "Original Avocado Toast WS",
+    "category": "Uncategorized",
+    "price": 11.5,
+    "scrapedAt": "2026-03-07T22:15:06.786Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "LA7O2RBG26MYZSUQERYVYSLS",
+    "name": "Yogurt Bowl WS",
+    "category": "Uncategorized",
+    "price": 10,
+    "scrapedAt": "2026-03-07T22:15:06.786Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "QOLD7BTDESRWY7TIIIPEOYZ7",
+    "name": "Goat Cheese Toast",
+    "category": "Uncategorized",
+    "price": 12,
+    "scrapedAt": "2026-03-07T22:15:06.786Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "3I2KUD7W37EZVUBLEEVT5M4C",
+    "name": "The Brunch Bowl WS",
+    "category": "Uncategorized",
+    "price": 13,
+    "scrapedAt": "2026-03-07T22:15:06.786Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "VQSB7YWWS6A3XGHS6YXYRSZD",
+    "name": "Turkey Pesto Panini",
+    "category": "Uncategorized",
+    "price": 12,
+    "scrapedAt": "2026-03-07T22:15:06.786Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "H2W622ZHY6YCHTW63W34QPI6",
+    "name": "DeLox Bagel*",
+    "category": "Uncategorized",
+    "price": 15.5,
+    "scrapedAt": "2026-03-07T22:15:06.786Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "3LW7KDKOI5F3VDKWJS4KEUOO",
+    "name": "Almond Butter Banana",
+    "category": "Uncategorized",
+    "price": 11,
+    "scrapedAt": "2026-03-07T22:15:06.786Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "QJ44P55X263AWX7KZSEY6PSB",
+    "name": "3 Month Gift Subscription",
+    "category": "Uncategorized",
+    "price": 125,
+    "scrapedAt": "2026-03-07T22:15:07.108Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "BS3K6SR5Y7TEJWJZ4DN5PGBM",
+    "name": "6 Month Gift Subscription",
+    "category": "Uncategorized",
+    "price": 125,
+    "scrapedAt": "2026-03-07T22:15:07.108Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "QKVER7Z5U3W2LUP2A3NDGSDE",
+    "name": "1 Year Gift Subscription",
+    "category": "Uncategorized",
+    "price": 125,
+    "scrapedAt": "2026-03-07T22:15:07.108Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "R5E4BQ62TGYFJZHENFVSCPTT",
+    "name": "Trivia",
+    "category": "Uncategorized",
+    "price": 0,
+    "scrapedAt": "2026-03-07T22:15:07.108Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "TMY4XITLTDV5ZOIBRN2MJNXV",
+    "name": "Trivia 05/29/2025",
+    "category": "Uncategorized",
+    "price": 0,
+    "scrapedAt": "2026-03-07T22:15:07.108Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "H6FAQ2ECAM66NWKU55JH63A5",
+    "name": "Trivia 06/05/2025",
+    "category": "Uncategorized",
+    "price": 0,
+    "scrapedAt": "2026-03-07T22:15:07.108Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "K2LGLZL32MJ3W75QYYHXUDIE",
+    "name": "Trivia 06/19/2025",
+    "category": "Uncategorized",
+    "price": 0,
+    "scrapedAt": "2026-03-07T22:15:07.108Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "RDYOZG5C3NMDYSYDXA6GQRUR",
+    "name": "Trivia 06/12/2025",
+    "category": "Uncategorized",
+    "price": 0,
+    "scrapedAt": "2026-03-07T22:15:07.108Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "DSRCSFH6OU6XAIC7EO6AFRUV",
+    "name": "Trivia 06/26/2025",
+    "category": "Uncategorized",
+    "price": 0,
+    "scrapedAt": "2026-03-07T22:15:07.108Z"
+  },
+  {
+    "storeId": "11thhour",
+    "sourceId": "S37A6X4NCJBD2AP2TNBKXVFZ",
+    "name": "11th Hour Comedy Saturday 12/06/2025",
+    "category": "Uncategorized",
+    "price": 15,
+    "scrapedAt": "2026-03-07T22:15:07.108Z"
+  }
+]
