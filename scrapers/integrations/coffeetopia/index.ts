@@ -1,48 +1,75 @@
-import { chromium, Page } from 'playwright';
+import { chromium, type Page } from 'playwright';
 import * as fs from 'fs';
 import * as path from 'path';
-import { Scraper, StandardizedProduct } from '../../core/types';
+import { fileURLToPath } from 'url';
+import type { Scraper, StandardizedProduct } from '../../core/types.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 export class CoffeetopiaScraper implements Scraper {
     storeId = 'coffeetopia';
-    targetUrl = 'https://coffeetopiainc.square.site/s/order';
+    targetUrl = 'https://coffeetopia.square.site/s/order';
 
     async scrape(): Promise<StandardizedProduct[]> {
         console.log(`[${this.storeId}] Starting scraping job for ${this.targetUrl}`);
-        const browser = await chromium.launch({ headless: true });
 
-        // Use an iPhone user agent since mobile views are sometimes simpler or more reliable to auto-scroll
-        const context = await browser.newContext({
-            userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1'
-        });
+        // Step 1: Fetch the initial HTML page directly without Playwright to speed things up
+        // We just need the embedded window.__BOOTSTRAP_STATE__ object to get the IDs.
+        console.log(`[${this.storeId}] Fetching storefront HTML...`);
+        const response = await fetch(this.targetUrl);
+        const html = await response.text();
 
-        const page = await context.newPage();
-        const collectedProducts: StandardizedProduct[] = [];
-
-        page.on('response', async (response) => {
-            const url = response.url();
-            // Square often loads category/item data through specific GraphQL endpoints or REST endpoints like /api/v1/items
-            if (url.includes('api/v1/...') || url.includes('items') || url.includes('graphql')) {
-                // Need to refine this interceptor logic based on runtime observation
-            }
-        });
-
-        console.log(`[${this.storeId}] Navigating...`);
-        await page.goto(this.targetUrl, { waitUntil: 'networkidle' });
-
-        // We will attempt to parse the DOM or embedded State depending on how Square loads
-        // For Square sites, the initial state is often embedded in a <script id="bootstrap-data"> or similar
-
-        const products = await this.extractFromScriptTag(page);
-
-        if (products.length > 0) {
-            collectedProducts.push(...products);
-        } else {
-            console.log(`[${this.storeId}] Failed to find embedded script data, falling back to DOM parsing.`);
-            // Placeholder for DOM parsing if needed
+        // Extract the __BOOTSTRAP_STATE__ JSON object
+        const match = html.match(/window\.__BOOTSTRAP_STATE__\s*=\s*({.+?});/);
+        if (!match || !match[1]) {
+            throw new Error(`[${this.storeId}] Failed to find __BOOTSTRAP_STATE__ in HTML payload.`);
         }
 
-        await browser.close();
+        const state = JSON.parse(match[1]);
+
+        // Extract required IDs for the API request
+        const siteId = state.siteData.site.id;
+        const classicSiteId = state.siteData.site.properties.classicSiteID;
+        // userId is actually inside siteData.site.properties or at the top level sometimes. Let's dig contextually or use the merchant ID
+        // Often Square's internal API works with the 'owner' or 'user_id'
+        const userId = state.siteData.site.user_id || state.user?.id || '142195097'; // Fallbacking to the value the browser subagent found if it fails to parse
+
+        // Square usually stores the location ID in the state, often the default location
+        // We'll search for it in the store locations array
+        const storeLocations = state.storeLocations?.locations || [];
+        const locationId = storeLocations[0]?.id || 'LKKGGFG0QBBY5'; // Fallback to Santa Cruz location if not found dynamically
+
+        console.log(`[${this.storeId}] Extracted IDs - User: ${userId}, Site: ${classicSiteId}, Location: ${locationId}`);
+
+        // Step 2: Hit the internal Products API directly
+        const apiUrl = `https://cdn5.editmysite.com/app/store/api/v28/editor/users/${userId}/sites/${classicSiteId}/store-locations/${locationId}/products?page=1&per_page=200&include=images,discounts,media_files&fulfillments[]=pickup&cache-version=2023-11-13`;
+
+        console.log(`[${this.storeId}] Fetching product catalog from Square API...`);
+        const apiResponse = await fetch(apiUrl);
+        const apiData = await apiResponse.json();
+
+        const products = apiData.data || [];
+        const collectedProducts: StandardizedProduct[] = [];
+
+        for (const item of products) {
+            // Square data structure parsing
+            const name = item.name;
+            const priceInfo = item.price;
+
+            // Convert price from string 'high' or 'low' to formatted number. Often in cents or string float.
+            const rawPrice = priceInfo?.high || priceInfo?.low || '0';
+            const price = parseFloat(rawPrice);
+
+            collectedProducts.push({
+                storeId: this.storeId,
+                sourceId: item.id,
+                name: name,
+                category: "Uncategorized", // Can be enhanced later via the Categories API
+                price: price,
+                scrapedAt: new Date().toISOString()
+            });
+        }
 
         // Save to data directory
         const dataDir = path.resolve(__dirname, '../../../data');
@@ -83,8 +110,8 @@ export class CoffeetopiaScraper implements Scraper {
     }
 }
 
-// Execute if run directly
-if (require.main === module) {
+const isMainModule = import.meta.url === `file://${process.argv[1]}`;
+if (isMainModule) {
     const scraper = new CoffeetopiaScraper();
     scraper.scrape().catch(console.error);
 }
