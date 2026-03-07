@@ -71,3 +71,4 @@ h6 {
 .animate-fade-in {
   animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }.custom-icon { width: 1.5em; height: 1.5em; display: inline-block; } .text-accent { color: var(--accent-color); }
+.logo-img { width: 1.5rem; height: 1.5rem; filter: drop-shadow(0 0 8px rgba(0, 230, 118, 0.4)); }

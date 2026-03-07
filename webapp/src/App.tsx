@@ -1,4 +1,4 @@
-import { CartIcon, StoreIcon, SmartCartIcon, SavingsIcon } from './components/Icons';
+import { StoreIcon, SmartCartIcon, SavingsIcon } from './components/Icons';
 import { HeroSearch } from './components/HeroSearch';
 import './App.css';
 import './index.css';
@@ -10,7 +10,7 @@ function App() {
 
         <header className="header-section">
           <div className="badge">
-            <CartIcon />
+            <img src="/logo.png" alt="EcoShoppr Logo" className="logo-img" />
             <span>EcoShoppr</span>
           </div>
 
