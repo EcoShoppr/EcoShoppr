@@ -14,6 +14,14 @@ app.get('/api/health', (req, res) => {
     res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 
+app.get('/api/env', (req, res) => {
+    res.json({
+        has_database_url: !!process.env.DATABASE_URL,
+        has_direct_url: !!process.env.DIRECT_URL,
+        node_env: process.env.NODE_ENV
+    });
+});
+
 // Get all products based on an optional search query
 app.get('/api/products', async (req, res) => {
     let { q } = req.query;
