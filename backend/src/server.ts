@@ -10,12 +10,12 @@ app.use(cors());
 app.use(express.json());
 
 // Basic health check endpoint to test Express
-app.get('/api/health', (req, res) => {
+app.get('/health', (req, res) => {
     res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 
 // Get all products based on an optional search query
-app.get('/api/products', async (req, res) => {
+app.get('/products', async (req, res) => {
     let { q } = req.query;
     try {
         const queryOptions: any = {
